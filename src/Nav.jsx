@@ -6,9 +6,7 @@ import logo from './imagens/logo.png';
 
  function NavMenu(){
 return(
-  <div className='Header'>
-    <div className='HeaderLogo'>
-    </div>
+  <div className='header'>
   <header>
     <div className="w50">
     <a href=""><img src={logo}/></a> 
@@ -16,15 +14,15 @@ return(
     <div className="w50">
       <div class="menu">
         <a href="">Início</a>
-        <a href="">Top 10 filmes</a>
-        <a href="">em Cartaz</a>
+        <a href="">Em cartaz</a>
+        <a href="">top 10 filmes</a>
         <a href="">Lançamentos</a>
       </div>
     </div>
   </header>
 
   <section className="banner">
-    <h2>Comprar Agora</h2>
+    <h2>exemplo</h2>
   </section>
 
   <section className="diferenciais">

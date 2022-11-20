@@ -19,6 +19,8 @@ header{
     padding:0 10px;
 }
 
+
+
 .menu
 {
  margin: 1em;
@@ -27,7 +29,7 @@ header{
 section.banner{
     width:100%;
     min-height: 500px;
-    background-color:darkblue;
+    background-color:black;
     text-align: center;
     padding:90px 0;
     color:white;
@@ -53,8 +55,22 @@ footer{
     background-color:darkorchid;
 }
 
+
+.menu a{
+   margin: 0.3em;
+   font-family: 'Rubik Bubbles';
+   font-size: 1.5em;
+   color: white;
+   text-decoration: none;
+   background-color: gray;
+   border: 1px solid black;
+   border-radius:20% 15% 10% 8% ;
+   width:60%;
+
+}
+
 @media screen and (max-width: 768px){
-    header{
+    .header{
         text-align: center;
     }
     .menu{
