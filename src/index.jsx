@@ -1,16 +1,19 @@
+import 'bootstrap/dist/css/bootstrap.min.css';
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import NavMenu from './Nav';
+import Footer from './Foorer';
 import reportWebVitals from './reportWebVitals';
 import { sendToVercelAnalytics } from './vitals';
-import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 ReactDOM.render(
   <React.StrictMode>
     <NavMenu/>
-    <App />
+    <App/>
+    <Footer/>
   </React.StrictMode>,
   document.getElementById('root')
 );
