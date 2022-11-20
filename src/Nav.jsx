@@ -1,4 +1,5 @@
-
+import 'bootstrap/dist/css/bootstrap.min.css';
+import React from 'react';
 import {Nav, NavItem, NavLink} from 'reactstrap';
 
 function NavMenu() {
