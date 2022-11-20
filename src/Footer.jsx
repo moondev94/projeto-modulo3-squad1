@@ -10,7 +10,7 @@ function Footer(){
   }}
 >
   <CardFooter>
-    Footer
+    Todos os direitos reservados. 2022.
   </CardFooter>
 </Card>
 
