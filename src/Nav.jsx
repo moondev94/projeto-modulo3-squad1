@@ -3,6 +3,7 @@ import {useState } from 'react';
 import './Nav.css';
 import React from 'react';
 import logo from './imagens/logo.png';
+import{Button} from 'reactstrap';
 
  function NavMenu(){
 return(
@@ -13,10 +14,10 @@ return(
     </div>
     <div className="w50">
       <div class="menu">
-        <a href="">Início</a>
-        <a href="">Em cartaz</a>
-        <a href="">top 10 filmes</a>
-        <a href="">Lançamentos</a>
+       <Button className="nm" color="primary" href="">Início</Button>
+       <Button className="nm" color="primary" href="">Em Cartaz</Button>
+       <Button className="nm" color="primary" href="">Top 10 filmes</Button>
+       <Button color="primary" href="">Lançamentos</Button>
       </div>
     </div>
   </header>

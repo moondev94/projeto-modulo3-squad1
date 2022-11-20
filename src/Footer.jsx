@@ -1,5 +1,5 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
-import {'Card', 'CardFooter'} from 'reactstrap';
+import {Card, CardFooter} from 'reactstrap';
 
 function Footer(){
   return (
@@ -13,5 +13,6 @@ function Footer(){
     Todos os direitos reservados. 2022.
   </CardFooter>
 </Card>
-
+  )
+}
 export default Footer;

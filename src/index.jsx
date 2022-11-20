@@ -7,12 +7,14 @@ import { sendToVercelAnalytics } from './vitals';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Banner from './banner';
 import Section from './section';
+import Footer from './Footer';
 
 ReactDOM.render(
   <React.StrictMode>
     <NavMenu />
     <Banner />
     <Section />
+    <Footer />
   </React.StrictMode>,
   document.getElementById('root')
 );

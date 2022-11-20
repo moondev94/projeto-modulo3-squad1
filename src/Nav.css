@@ -27,17 +27,10 @@ header{
  text-align: right;}
 
 
-.menu a{
-   margin: 0.3em;
-   font-family: 'Rubik Bubbles';
-   font-size: 1.5em;
-   color: white;
-   text-decoration: none;
-   background-color: gray;
-   border: 1px solid black;
-   border-radius:20% 15% 10% 8% ;
-   width:60%;
 
+.nm{
+    margin:0.7em;
+    font-family: 'Rubik Bubbles';
 }
 
 @media screen and (max-width: 768px){
@@ -49,3 +42,5 @@ header{
     }
     
 }
+
+
