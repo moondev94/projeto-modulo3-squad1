@@ -1,0 +1,67 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+
+header{
+    background-image:url('../src/imagens/fm.jpg') ;
+    background-size: 75%;
+    display: flex;
+    flex-wrap: wrap;
+    height:19em;
+    
+}
+
+.w50{
+    width:50%;
+    padding:0 10px;
+}
+
+.menu
+{
+ margin: 1em;
+ text-align: right;}
+
+section.banner{
+    width:100%;
+    min-height: 500px;
+    background-color:darkblue;
+    text-align: center;
+    padding:90px 0;
+    color:white;
+}
+
+section.diferenciais{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    padding:20px 0;
+}
+
+.w33{
+    width:33.3%;
+    padding:0 10px;
+}
+
+footer{
+    position: fixed;
+    bottom:0;
+    width:100%;
+    text-align: center;
+    background-color:darkorchid;
+}
+
+@media screen and (max-width: 768px){
+    header{
+        text-align: center;
+    }
+    .menu{
+        text-align: center;
+    }
+    .w33,.w50{
+        width:100%;
+        margin-bottom: 20px;
+    }
+}
