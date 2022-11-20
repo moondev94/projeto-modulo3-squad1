@@ -1,0 +1,22 @@
+section.diferenciais{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    padding:20px 0;
+}
+
+.w33{
+    width:33.3%;
+    padding:0 10px;
+}
+
+
+@media screen and (max-width: 768px){
+
+    .w33,.w50{
+        width:100%;
+        margin-bottom: 20px;
+    }
+}
+
+
