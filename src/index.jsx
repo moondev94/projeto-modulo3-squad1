@@ -1,22 +1,27 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import NavMenu from './Nav';
-import reportWebVitals from './reportWebVitals';
-import { sendToVercelAnalytics } from './vitals';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import Banner from './banner';
-import Section from './section';
-import Footer from './Footer';
+import ReactDOM from "react-dom/client";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Layout from "./view/Layout";
+import Home from "./view/Home";
+import Filmes from "./view/Filmes";
+import Contato from "./view/Contato";
+import Sobre from "./view/Sobre";
+import NoPage from "./view/NoPage";
 
-ReactDOM.render(
-  <React.StrictMode>
-    <NavMenu />
-    <Banner />
-    <Section />
-    <Footer />
-  </React.StrictMode>,
-  document.getElementById('root')
-);
+export default function App() {
+  return (
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Layout />}>
+          <Route index element={<Home />} />
+          <Route path="Filmes" element={<Filmes />} />
+          <Route path="Sobre" element={<Sobre />} />
+          <Route path="Contato" element={<Contato />} />
+          <Route path="*" element={<NoPage />} />
+        </Route>
+      </Routes>
+    </BrowserRouter>
+  );
+}
 
-reportWebVitals(sendToVercelAnalytics);
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(<App />);
