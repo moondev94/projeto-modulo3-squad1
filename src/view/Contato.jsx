@@ -61,12 +61,12 @@ const Contato = () => {
        Enviar
       </Button>
       <Modal isOpen={modal} toggle={toggle} >
-        <ModalHeader toggle={toggle}>Modal title</ModalHeader>
+        <ModalHeader toggle={toggle}>Mensagem enviada!</ModalHeader>
         <ModalBody>
           Em breve retornaremos sua mensagem, aguarde em até 24 horas.
         </ModalBody>
         <ModalFooter>
-          <Button color="primary" onClick={toggle}>
+          <Button color="danger" onClick={toggle}>
             Ok
           </Button>{' '}
           
