@@ -1,69 +1,35 @@
 body {
-    padding: 0;
-    margin: 0;
+    font-family: sans-serif;
    justify-content: center;
    display: grid;
 
 }
-ul {
-    list-style-type: none;
-}
+
 
 form {
     font-size: 16px;
     background: black;
-    max-width: 450px;
-    max-height: 800px;
-    margin: 150px;
-    padding: 10px;
-    border-radius: 10px;
-}
-
-h1 {
-    margin: 20px;
     
-    text-shadow: 5px 5px 5px black;
+    margin: 150px;
+    padding: 20px;
+    border-radius: 5px;
+    justify-content: center;
+    text-align: center;
 }
-
-input, textarea {
-    width: auto;
-    padding: 10px;
-    color: black;
-    margin-left: 20px;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    border: 2px solid;
+label {
+    color: white;
+}
+form h1 {
+    margin: 10px;
+    color: white;
+    text-shadow: 3px 3px 3px grey;
 }
 
 input:hover, textarea:hover, input:focus, textarea:focus {
-    border-color: #000066;
-    box-shadow: 5px 0px 9px black;
+    border-color: grey;
+    box-shadow: 3px 2px 5px rosybrown;
     color: black;
     font-weight: bold;
 }
 
-.enviar {
-    background-color:red;
-    height: 40px;
-    width: 100px;
-    font-weight: bold;
-    border-radius: 5px;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    border: 1px solid;
-    color: black;
-}
 
-textarea {
-    width: 300px;
-    height: 120px;
-    line-height: 20px;
-    max-width: 400px;
-}
-
-form label {
-    display: block;
-    margin: 15px;
-    color: #FFFFFF;
-    font-weight: bold;
-}
