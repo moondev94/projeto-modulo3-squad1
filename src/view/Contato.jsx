@@ -1,28 +1,81 @@
+import React, { useState } from 'react';
+import { Button, Modal, ModalHeader, ModalBody, ModalFooter } from 'reactstrap';
+import { FormGroup, Label, Input, Form } from 'reactstrap';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import "./css/Contato.css"
 
 const Contato = () => {
+  const [modal, setModal] = useState(false);
 
+  const toggle = () => setModal(!modal);
   return (
     <body>
-    <form name="meu_form">
+    <Form name="meu_form">
     
       <h1>Entre em contato</h1>
-      <label for="nome">Nome</label>
-      <input type="text" id="nomeid" placeholder="João Silva" required="required" name="nome" />
       
-      <label for="fone">Fone</label>
-      <input type="tel" id="foneid" placeholder="(XX) X XXXX-XXXX" name="fone" />
       
-      <label for="email">Email</label>
-      <input type="email" id="emailid" placeholder="joaosilva@email.com" name="email" />
-      
-      <label for="msg">Mensagem</label>
-      <textarea placeholder="Deixe sua mensagem"></textarea>
+      <FormGroup>
+      <Label for="name">
+      Nome
+    </Label>
+  <Input
+  type="text" id="name" placeholder="Nome e Sobrenome"
+  />
+</FormGroup>
+      <FormGroup>
+    <Label for="exampleNumber">
+      Number
+    </Label>
+    <Input
+      id="exampleNumber"
+      name="number"
+      placeholder="(xx) x xxxx-xxxx"
+      type="number"
+    />
+</FormGroup>
+<FormGroup>
+    <Label for="exampleEmail">
+      E-mail
+    </Label>
+    <Input
+      id="exampleEmail"
+      name="email"
+      placeholder="nome@email.com.br"
+      type="email"
+    />
+</FormGroup> 
+<FormGroup>
+    <Label for="exampleText">
+      Mensagem
+    </Label>
+    <Input
+      id="exampleText"
+      name="text"
+      type="textarea"
+    />
     
-      <input type="submit" class="enviar" onclick="Enviar();" value="Enviar" />
-    </form>
-    </body>
-  );
-};
-
+</FormGroup>
+<div>
+      <Button color="danger" onClick={toggle}>
+       Enviar
+      </Button>
+      <Modal isOpen={modal} toggle={toggle} >
+        <ModalHeader toggle={toggle}>Modal title</ModalHeader>
+        <ModalBody>
+          Em breve retornaremos sua mensagem, aguarde em até 24 horas.
+        </ModalBody>
+        <ModalFooter>
+          <Button color="primary" onClick={toggle}>
+            Do Something
+          </Button>{' '}
+          <Button color="secondary" onClick={toggle}>
+            Cancel
+          </Button>
+        </ModalFooter>
+      </Modal>
+</div>
+  </Form>
+  </body>
+)}
 export default Contato;
