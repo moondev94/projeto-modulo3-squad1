@@ -25,7 +25,7 @@ const Contato = () => {
 </FormGroup>
       <FormGroup>
     <Label for="exampleNumber">
-      Number
+      Número
     </Label>
     <Input
       id="exampleNumber"
