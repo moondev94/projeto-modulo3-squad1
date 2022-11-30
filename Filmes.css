@@ -1,0 +1,11 @@
+.dev{
+    pointer-events: visible;
+    display: flex;
+    width: 400px;
+    height: 400px;
+}
+.teste{
+ display: flex;
+ justify-content: space-between;
+ margin: 0.5em;
+}
