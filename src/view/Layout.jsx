@@ -1,5 +1,6 @@
-import { Outlet, Link } from "react-router-dom";
+import {Outlet} from "react-router-dom";
 import { Navbar, NavbarBrand, Button, Container, Row, Col } from "reactstrap";
+import 'bootstrap/dist/css/bootstrap.min.css';
 import "./css/Layout.css";
 
 
@@ -7,33 +8,50 @@ const Layout = () => {
     return (
         <>
 
-            <Navbar className="my-2">
-                <NavbarBrand href="/">
+            <Navbar className="Header">
+                <NavbarBrand className="Navlogo" href="/">
                     <img
-                        alt="logo"
+                        alt="Logo"
                         src=""
                         style={{
                             height: 40,
                             width: 40
                         }} />
 
-                    <div className="menu">
-                        <ul>
-                            <li>
-                                <Button className="nm" color="dark"><Link to="/">Home</Link></Button>
-                            </li>
-                            <li>
-                                <Button className="nm" color="dark"><Link to="/Filmes">Filmes</Link></Button>
-                            </li>
-                            <li>
-                                <Button className="nm" color="dark"><Link to="/Sobre">Sobre</Link></Button>
-                            </li>
-                            <li>
-                                <Button className="nm" color="dark"><Link to="/Contato">Contato</Link></Button>
-                            </li>
-                        </ul>
-                    </div>
+                    <Row className="NavMenu">
+                        <div className="">
+                            <Button outline
+                                color="secondary"
+                                href="/"
+                                tag="a">
+                                Home
+                            </Button>
+                            {' '}
+                            <Button outline
+                                color="secondary"
+                                href="/Filmes"
+                                tag="a">
+                                Filmes
+                            </Button>
+                            {' '}
+                            <Button outline
+                                color="secondary"
+                                href="/Sobre"
+                                tag="a">
+                                Sobre
+                            </Button>
+                            {' '}
+                            <Button outline
+                                color="secondary"
+                                href="/Contato"
+                                tag="a">
+                                Contato
+                            </Button>
+                            {' '}
 
+                        </div>
+
+                    </Row>
                 </NavbarBrand>
             </Navbar>
 
@@ -49,7 +67,7 @@ const Layout = () => {
                                 <ul>
                                     <li><a href="#">Quem Somos</a></li>
                                     <li><a href="#">FAQ</a></li>
-                                    <li><a href="#"></a></li>
+                                    <li><a href="#">Política de Privacidade</a></li>
                                     <li><a href="#"></a></li>
                                     <li><a href="#"></a></li>
                                 </ul>
@@ -63,6 +81,9 @@ const Layout = () => {
                                     <a href="#"><i class="fab fa-instagram"></i></a>
                                     <a href="#"><i class="fab fa-linkedin-in"></i></a>
                                 </Col>
+                            </Col>
+                            <Col className="footer-col">
+                                <a>© Popcorn TV (2022). Todos os direitos reservados.</a>
                             </Col>
                         </Row>
                     </Container>

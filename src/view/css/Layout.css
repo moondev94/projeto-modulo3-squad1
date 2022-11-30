@@ -1,31 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 
-.my-2 {
+.Header {
     background-color: #24262b;
     color: #bbbbbb;
 }
 
-.menu {
+ .NavMenu {
     margin: 1em;
     text-align: right;
     float: right;
     display: flex;
     flex-direction: row;
-    justify-content: flex-end;
-    text-decoration: none;
-    color: #bbbbbb;
-}
-
-.menu ul {
-    margin: 0.7em;
-    color: #bbbbbb;
-    text-decoration: none;
-    display: flex;
-    flex-wrap: wrap;
-    list-style: none;
-}
-
-.menu li {
+    justify-content:space-between;
     text-decoration: none;
     color: #bbbbbb;
 }
@@ -128,6 +114,14 @@ body {
 .footer-col .social-links a:hover {
     color: #24262b;
     background-color: #ffffff;
+}
+
+.footer-col a {
+    font-size: 16px;
+    text-decoration: none;
+    font-weight: 300;
+    color: #bbbbbb;
+    display: block;
 }
 
 /*responsive*/
