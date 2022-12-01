@@ -6,6 +6,7 @@ import Filmes from "./view/Filmes";
 import Contato from "./view/Contato";
 import Sobre from "./view/Sobre";
 import NoPage from "./view/NoPage";
+import Footer from "./view/Footer";
 
 export default function App() {
   return (
