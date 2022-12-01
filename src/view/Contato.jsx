@@ -5,11 +5,14 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import "./css/Contato.css"
 
 const Contato = () => {
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
   const [modal, setModal] = useState(false);
 
   const toggle = () => setModal(!modal);
   return (
     <body>
+      <div id="formulario">
     <Form name="meu_form">
     
       <h1>Entre em contato</h1>
@@ -20,7 +23,10 @@ const Contato = () => {
       Nome
     </Label>
   <Input
-  type="text" id="name" placeholder="Nome e Sobrenome"
+  type="text" 
+  id="name" 
+  placeholder="Nome e Sobrenome"
+  onChange={(e) => setName(e.target.value)}
   />
 </FormGroup>
       <FormGroup>
@@ -32,6 +38,7 @@ const Contato = () => {
       name="number"
       placeholder="(xx) x xxxx-xxxx"
       type="number"
+      
     />
 </FormGroup>
 <FormGroup>
@@ -43,6 +50,7 @@ const Contato = () => {
       name="email"
       placeholder="nome@email.com.br"
       type="email"
+      onChange={(e) => setEmail(e.target.value)}
     />
 </FormGroup> 
 <FormGroup>
@@ -54,8 +62,9 @@ const Contato = () => {
       name="text"
       type="textarea"
     />
-    
+
 </FormGroup>
+
 <div>
       <Button color="danger" onClick={toggle}>
        Enviar
@@ -63,7 +72,7 @@ const Contato = () => {
       <Modal isOpen={modal} toggle={toggle} >
         <ModalHeader toggle={toggle}>Mensagem enviada!</ModalHeader>
         <ModalBody>
-          Em breve retornaremos sua mensagem, aguarde em até 24 horas.
+          Olá {name}, em breve retornaremos sua mensagem para seu e-mail {email}, aguarde em até 24 horas.
         </ModalBody>
         <ModalFooter>
           <Button color="danger" onClick={toggle}>
@@ -74,6 +83,8 @@ const Contato = () => {
       </Modal>
 </div>
   </Form>
+  </div> 
   </body>
+  
 )}
 export default Contato;
