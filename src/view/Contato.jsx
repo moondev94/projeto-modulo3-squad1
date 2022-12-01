@@ -12,7 +12,7 @@ const Contato = () => {
   const toggle = () => setModal(!modal);
   return (
     <body>
-      <div id="formulario">
+      <div class="formulario">
     <Form name="meu_form">
     
       <h1>Entre em contato</h1>
