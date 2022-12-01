@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Button, Modal, ModalHeader, ModalBody, ModalFooter } from 'reactstrap';
 import { FormGroup, Label, Input, Form } from 'reactstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import "./css/Contato.css"
+import "./Contato.css"
 
 const Contato = () => {
   const [name, setName] = useState("");
@@ -12,8 +12,10 @@ const Contato = () => {
   const toggle = () => setModal(!modal);
   return (
     <body>
-      <div class="formulario">
-    <Form name="meu_form">
+      
+    <Form className="bg-black"
+    fluid
+  >
     
       <h1>Entre em contato</h1>
       
@@ -83,7 +85,7 @@ const Contato = () => {
       </Modal>
 </div>
   </Form>
-  </div> 
+   
   </body>
   
 )}
