@@ -7,7 +7,10 @@ import {
     CarouselCaption,
     Container,
     Row,
-    Col
+    Col,
+    CardBody,
+    CardTitle,
+    CardText
 } from 'reactstrap';
 import "./css/Home.css";
 
@@ -71,40 +74,81 @@ function Home(args) {
     });
 
     return (
-        <Container>
-            <Row>
-                <Col className="justify-content-center"></Col>
-                <Col className='p-2' md={{
-                    offset: 1,
-                    size: 10
-                }}
-                    sm="12"
+        <Container className="Container">
+
+            <Col className="SlideCarousel">
+                <Carousel
+                    activeIndex={activeIndex}
+                    next={next}
+                    previous={previous}
+                    {...args}
                 >
-                    <Carousel
+                    <CarouselIndicators
+                        items={items}
                         activeIndex={activeIndex}
-                        next={next}
-                        previous={previous}
-                        {...args}
-                    >
-                        <CarouselIndicators
-                            items={items}
-                            activeIndex={activeIndex}
-                            onClickHandler={goToIndex}
-                        />
-                        {slides}
-                        <CarouselControl
-                            direction="prev"
-                            directionText="Previous"
-                            onClickHandler={previous}
-                        />
-                        <CarouselControl
-                            direction="next"
-                            directionText="Next"
-                            onClickHandler={next}
-                        />
-                    </Carousel>
+                        onClickHandler={goToIndex}
+                    />
+                    {slides}
+                    <CarouselControl
+                        direction="prev"
+                        directionText="Previous"
+                        onClickHandler={previous}
+                    />
+                    <CarouselControl
+                        direction="next"
+                        directionText="Next"
+                        onClickHandler={next}
+                    />
+                </Carousel>
+            </Col>
+
+
+            <Row className="Spotlight">
+                <Col clasName="Spot">
+                    <img
+                        alt="Card"
+                        src="https://picsum.photos/300/200"
+                    />
+                    <CardBody>
+                        <CardTitle tag="h5">
+                            Card Title
+                        </CardTitle>
+                        <CardText>
+                            This is some text within a card body.
+                        </CardText>
+                    </CardBody>
+                </Col>
+                <Col clasName="Spot">
+                    <img
+                        alt="Card"
+                        src="https://picsum.photos/300/200"
+                    />
+                    <CardBody>
+                        <CardTitle tag="h5">
+                            Card Title
+                        </CardTitle>
+                        <CardText>
+                            This is some text within a card body.
+                        </CardText>
+                    </CardBody>
+                </Col>
+                <Col clasName="Spot">
+                    <img
+                        alt="Card"
+                        src="https://picsum.photos/300/200"
+                    />
+                    <CardBody>
+                        <CardTitle tag="h5">
+                            Card Title
+                        </CardTitle>
+                        <CardText>
+                            This is some text within a card body.
+                        </CardText>
+                    </CardBody>
                 </Col>
             </Row>
+
+
         </Container>
     );
 }
