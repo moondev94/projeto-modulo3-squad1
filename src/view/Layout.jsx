@@ -1,7 +1,8 @@
-import {Outlet} from "react-router-dom";
-import { Navbar, NavbarBrand, Button, Container, Row, Col } from "reactstrap";
+import { Outlet } from "react-router-dom";
+import { Navbar, NavbarBrand, Button, Row, } from "reactstrap";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import "./css/Layout.css";
+import Logo from "./media/logo.png"
 
 
 const Layout = () => {
@@ -9,53 +10,60 @@ const Layout = () => {
         <>
 
             <Navbar className="Header">
-                <NavbarBrand className="Navlogo" href="/">
-                    <img
-                        alt="Logo"
-                        src=""
-                        style={{
-                            height: 40,
-                            width: 40
-                        }} />
 
-                    <Row className="NavMenu">
-                        <div className="">
-                            <Button outline
-                                color="secondary"
+                <Row className="row">
+                    <NavbarBrand className="Navlogo" href="/">
+                        <img
+                            alt="Logo"
+                            src={Logo}
+                            style={{
+                                height: 205,
+                                width: 375,
+                            }} />
+
+                        <div className="NavMenu">
+                            <Button className="Btn"
+                                color="none"
                                 href="/"
                                 tag="a">
-                                Home
+                                <a>Home</a>
                             </Button>
                             {' '}
-                            <Button outline
-                                color="secondary"
+                            <Button className="Btn"
+                                color="none"
                                 href="/Filmes"
                                 tag="a">
-                                Filmes
+                                <a>Filmes</a>
                             </Button>
                             {' '}
-                            <Button outline
-                                color="secondary"
+                            <Button className="Btn"
+                                color="none"
                                 href="/Sobre"
                                 tag="a">
-                                Sobre
+                                <a>Sobre</a>
                             </Button>
                             {' '}
-                            <Button outline
-                                color="secondary"
+                            <Button className="Btn"
+                                color="none"
                                 href="/Contato"
                                 tag="a">
-                                Contato
+                                <a>Contato</a>
                             </Button>
                             {' '}
 
                         </div>
 
-                    </Row>
-                </NavbarBrand>
+
+
+                    </NavbarBrand>
+                </Row>
+
             </Navbar>
 
             <Outlet />
+            <main className="Main">
+
+            </main>
 
         </>
     )
