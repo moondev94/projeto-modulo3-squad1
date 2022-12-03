@@ -1,6 +1,10 @@
 import { Container, Row, Col } from "reactstrap";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import "./css/Footer.css"
+import FacebookIcon from "./media/facebook.png"
+import InstagramIcon from "./media/instagram.png"
+import TwitterIcon from "./media/twitter.png"
+import YoutubeIcon from "./media/youtube.png"
 
 const Footer = () => {
     return (
@@ -22,10 +26,26 @@ const Footer = () => {
                             <h4>follow us</h4>
                             <Col className="social-links">
 
-                                <a href="#"><i class="fab fa-facebook-f"></i></a> 
-                                <a href="#"><i class="fab fa-twitter"></i></a>
-                                <a href="#"><i class="fab fa-instagram"></i></a>
-                                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                                <a href="#"><img alt="SocialMedia" src={FacebookIcon}
+                            style={{
+                                height: 25,
+                                width: 25,
+                            }} /></a> 
+                                <a href="#"><img alt="SocialMedia" src={InstagramIcon}
+                            style={{
+                                height: 25,
+                                width: 25,
+                            }} /></a>
+                                <a href="#"><img alt="SocialMedia" src={TwitterIcon}
+                            style={{
+                                height: 25,
+                                width: 25,
+                            }} /></a>
+                                <a href="#"><img alt="SocialMedia" src={YoutubeIcon}
+                            style={{
+                                height: 25,
+                                width: 25,
+                            }} /></a>
                                 {/*<a href="https://www.flaticon.com/free-icons/twitter" title="twitter icons">Twitter icons created by Freepik - Flaticon</a> */}
                             </Col>
                         </Col>
