@@ -11,9 +11,9 @@ const Contato = () => {
 
   const toggle = () => setModal(!modal);
   return (
-    <body>
+    <div className="corpoContato">
       
-    <Form className="bg-black"
+    <Form className="bg-#24262b"
     fluid
   >
     
@@ -86,7 +86,7 @@ const Contato = () => {
 </div>
   </Form>
    
-  </body>
+  </div>
   
 )}
 export default Contato;
