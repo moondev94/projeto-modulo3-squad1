@@ -62,7 +62,7 @@
 }
 
 body {
-    background-color: #ffffff;
+    background-color: #24262b;
     min-height: 100vh;
     overflow-x: hidden;
 }
@@ -73,7 +73,7 @@ body {
         text-align: center;
     }
 
-    .menu {
+    .row {
         text-align: center;
     }
 
