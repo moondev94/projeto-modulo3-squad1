@@ -1,26 +1,30 @@
-body {
+.corpoContato {
     font-family: sans-serif;
    justify-content: center;
-   
-
+   background-color: #24262b;
+    padding: 10%;
 }
 formulario {
 display: flex;
 justify-content: center;
 }
-
+.mb-3 {
+    display: grid;
+    justify-content: center;
+}
 form {
     font-size: 16px;
-    background: black;
-    width: 33%;
+    background-color: #24262b;
+    width: auto;
     margin: auto;
     padding: 20px;
-    border-radius: 5px;
+    
     justify-content: center;
     text-align: center;
 }
 label {
     color: white;
+    
 }
 form h1 {
     margin: 10px;
@@ -34,5 +38,3 @@ input:hover, textarea:hover, input:focus, textarea:focus {
     color: black;
     font-weight: bold;
 }
-
-
