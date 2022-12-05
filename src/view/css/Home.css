@@ -1,18 +1,53 @@
-.Container {
-    display: grid;
+.Homepage {
+    display: flex;
     flex-direction: column;
-    box-sizing: content-box;
-    width: 100%;
+    justify-content: center;
+    align-items: center;
 }
+
 .SlideCarousel {
     padding: 0.5rem;
-    width: 100%;
 }
+
+/* .ImageCarousel {
+    width: 1050px;
+    height: 597.3px;
+} */
+
 .Spotlight {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     align-content: center;
-    width: 100%;
-    
+    justify-content: center;
+    margin-bottom: 10em;
+    padding: 1em;
+
+}
+
+.Spot {
+    display: flex;
+    flex-direction: column;
+
+}
+
+h5 {
+    color: black;
+}
+
+a {
+    color: black;
+}
+
+@media only screen and (max-device-width: 480px) {
+    .NavMenu {
+        flex-direction: column;
+        overflow-x: hidden;
+    }
+ }
+@media only screen and (max-device-width: 768px){
+    .NavMenu {
+        flex-direction: column;
+        overflow-x: hidden;
+    }
 }

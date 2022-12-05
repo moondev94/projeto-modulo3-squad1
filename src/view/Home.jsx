@@ -16,19 +16,19 @@ import "./css/Home.css";
 
 const items = [
     {
-        src: 'https://picsum.photos/id/123/1200/400',
+        src: 'https://hbomax-images.warnermediacdn.com/2021-11/hero_dsk_0.jpg?host=wme-hbomax-drupal-prod.s3.amazonaws.com&w=2800',
         altText: 'Slide 1',
         caption: 'Slide 1',
         key: 1,
     },
     {
-        src: 'https://picsum.photos/id/456/1200/400',
+        src: 'https://i.ytimg.com/vi/8d2EmV46mmo/maxresdefault.jpg',
         altText: 'Slide 2',
         caption: 'Slide 2',
         key: 2,
     },
     {
-        src: 'https://picsum.photos/id/678/1200/400',
+        src: 'https://hbomax-images.warnermediacdn.com/images/GYGP7pwQv_ojDXAEAAAFc/tileburnedin?size=1280x720&partner=hbomaxcom&v=bd4e8b8745a1fcccbb19d76012ae572e&host=art-gallery.api.hbo.com&language=pt-br&w=1280',
         altText: 'Slide 3',
         caption: 'Slide 3',
         key: 3,
@@ -64,7 +64,7 @@ function Home(args) {
                 onExited={() => setAnimating(false)}
                 key={item.src}
             >
-                <img src={item.src} alt={item.altText} />
+                <img className="d-block w-100 ImageCarousel" src={item.src} alt={item.altText} />
                 <CarouselCaption
                     captionText={item.caption}
                     captionHeader={item.caption}
@@ -74,7 +74,7 @@ function Home(args) {
     });
 
     return (
-        <Container className="Container">
+        <Container className="Homepage">
 
             <Col className="SlideCarousel">
                 <Carousel
@@ -89,7 +89,7 @@ function Home(args) {
                         onClickHandler={goToIndex}
                     />
                     {slides}
-                    <CarouselControl
+                    <CarouselControl 
                         direction="prev"
                         directionText="Previous"
                         onClickHandler={previous}
@@ -114,7 +114,7 @@ function Home(args) {
                             Card Title
                         </CardTitle>
                         <CardText>
-                            This is some text within a card body.
+                            <a>This is some text within a card body.</a>
                         </CardText>
                     </CardBody>
                 </Col>
@@ -128,7 +128,7 @@ function Home(args) {
                             Card Title
                         </CardTitle>
                         <CardText>
-                            This is some text within a card body.
+                            <a>This is some text within a card body.</a>
                         </CardText>
                     </CardBody>
                 </Col>
@@ -142,7 +142,7 @@ function Home(args) {
                             Card Title
                         </CardTitle>
                         <CardText>
-                            This is some text within a card body.
+                            <a>This is some text within a card body.</a>
                         </CardText>
                     </CardBody>
                 </Col>
