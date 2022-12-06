@@ -50,6 +50,13 @@ const Layout = () => {
                             <a>Contato</a>
                         </Button>
                         {' '}
+                        <div className="SearchBox">
+                            <input className="SearchTxt" type="text" name="" placeholder="Search" />
+                            <a className="SearchBtn" href="#">
+                            <i className="fa fa-search" aria-hidden="true"></i> 
+                            </a>
+                            
+                        </div>
 
                     </div>
 
@@ -58,9 +65,6 @@ const Layout = () => {
             </Navbar>
 
             <Outlet />
-            <main className="Main">
-
-            </main>
 
         </>
     )
