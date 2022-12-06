@@ -20,7 +20,7 @@ const Sobre = () => {
          
          
         </Row>
-        <hr style={{background: 'rgb(233 30 99)'}}></hr>
+        <hr style={{color: 'rgb(233 30 99)'}}></hr>
         <div className="p-3 my-2 rounded">
            <div>
            <Toast>
