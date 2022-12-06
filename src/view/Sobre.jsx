@@ -108,42 +108,6 @@ No nosso site é entreter o mundo, e é por isso que levamos até você os melho
 
 </Col>
 
-<Col>
-
-<div className="p-3 bg-secondary my-2 rounded">
-
-<Toast>
-
-<ToastBody>
-
-This is a toast on a secondary background — check it out!
-
-</ToastBody>
-
-</Toast>
-
-</div>
-
-</Col>
-
-<Col>
-
-<div className="p-3 bg-success my-2 rounded">
-
-<Toast>
-
-<ToastBody>
-
-This is a toast on a success background — check it out!
-
-</ToastBody>
-
-</Toast>
-
-</div>
-
-</Col>
-
 </Row>
 
 </Container>
