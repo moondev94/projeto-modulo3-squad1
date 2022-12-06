@@ -50,7 +50,7 @@ const Footer = () => {
                             </Col>
                         </Col>
                         <Col className="footer-col">
-                            <a>© Popcorn TV (2022). Todos os direitos reservados.</a>
+                            <a>© DevPlay TV (2022). Todos os direitos reservados.</a>
                         </Col>
                     </Row>
                 </Container>
