@@ -7,7 +7,7 @@ const Sobre = () => {
 return (
 
 <div>
-<div>
+<div style={{ background: 'white'}}>
 <h1>Quem Somos</h1>
 </div>
 <div className="p-3 my-2 rounded">
