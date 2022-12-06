@@ -7,12 +7,10 @@ const Sobre = () => {
 return (
 
 <div>
-
+<div>
 <h1>Quem Somos</h1>
-
-<div
-
-className="p-3 my-2 rounded">
+</div>
+<div className="p-3 my-2 rounded">
 
 <Toast>
 
