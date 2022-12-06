@@ -17,7 +17,7 @@ const Sobre = () => {
       <Container>
         <Row>
           <Col>
-            <div className="p-3 my-2 rounded"  style={{textAlign: 'center'}} style={{background: 'red'}}>
+           <div className="p-3 my-2 rounded" style={{background: 'red'}}>
               <Toast>
                 <ToastBody>
                 Nosso site de filmes foi criado para pessoas viciadas e apaixonadas por filmes. No nosso site você fica sabendo quais filmes são lançados, os que estão no cinema e aqueles que já estão em DVD, para você assistir em casa.
