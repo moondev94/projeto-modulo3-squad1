@@ -7,23 +7,34 @@
 
 .Header {
     color: #ffffff;
-    background-color: #24262b;
+    overflow: hidden;
+}
+
+h1 {
+    color:  #bbbbbb;
 }
 
 .NavMenu {
     margin: auto;
     width: 100vw;
-    min-width: 600px;
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
     position: sticky;
+    color: #ffffff;
 }
 
-.NavLogo {
+.NavLogo img {
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.NavLogo a {
+    color:#e91e63;
 }
 
 .Btn {
@@ -62,19 +73,23 @@
 }
 
 body {
-    background-color: #24262b;
-    min-height: 100vh;
+    background: rgb(0, 0, 0);
+    background: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(36, 38, 43, 1) 47%, rgba(0, 0, 0, 1) 100%);
     overflow-x: hidden;
+    color:#bbbbbb
 }
 
-
-@media screen and (max-width: 768px) {
-    .header {
-        text-align: center;
+/* smartphones, iPhone, portrait 480x320 phones */
+@media only screen and (max-device-width: 480px) {
+    .NavMenu {
+        flex-direction: column;
+        overflow-x: hidden;
     }
+}
 
-    .menu {
-        text-align: center;
+@media only screen and (max-device-width: 768px) {
+    .NavMenu {
+        flex-direction: column;
+        overflow-x: hidden;
     }
-
 }
