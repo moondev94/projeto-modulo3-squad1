@@ -12,15 +12,7 @@ return (
 
 <div
 
-className="p-3 my-2 rounded"
-
-style={{
-
-background: 'black'
-
-}}
-
->
+className="p-3 my-2 rounded">
 
 <Toast>
 
@@ -40,11 +32,7 @@ Nosso site de filmes foi criado para pessoas viciadas e apaixonadas por filmes. 
 
 <Col className="">
 
-<div className="p-3 my-2 rounded"  style={{
-
-background: 'red'
-
-}}>
+<div className="p-3 my-2 rounded">
 
 <Toast>
 
@@ -66,11 +54,7 @@ Nosso site de filmes foi criado para pessoas viciadas e apaixonadas por filmes. 
 
 <Col>
 
-<div className="p-3 my-2 rounded bg-docs-transparent-grid" style={{
-
-background: 'black'
-
-}}>
+<div className="p-3 my-2 rounded bg-docs-transparent-grid">
 
 <Toast>
 
@@ -88,11 +72,7 @@ No nosso site é entreter o mundo, e é por isso que levamos até você os melho
 
 <Col>
 
-<div className="p-3 my-2 rounded bg-docs-transparent-grid" style={{
-
-background: 'black'
-
-}} >
+<div className="p-3 my-2 rounded bg-docs-transparent-grid">
 
 <Toast>
 
