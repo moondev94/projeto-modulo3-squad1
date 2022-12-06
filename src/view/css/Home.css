@@ -9,11 +9,6 @@
     padding: 0.5rem;
 }
 
-/* .ImageCarousel {
-    width: 1050px;
-    height: 597.3px;
-} */
-
 .Spotlight {
     display: flex;
     flex-direction: row;
@@ -32,21 +27,21 @@
 }
 
 h5 {
-    color: black;
+    color: #bbbbbb
 }
 
 a {
-    color: black;
+    color: #bbbbbb
 }
 
 @media only screen and (max-device-width: 480px) {
-    .NavMenu {
+    .Spotlight {
         flex-direction: column;
         overflow-x: hidden;
     }
  }
 @media only screen and (max-device-width: 768px){
-    .NavMenu {
+    .Spot {
         flex-direction: column;
         overflow-x: hidden;
     }
