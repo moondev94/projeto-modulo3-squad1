@@ -1,20 +1,22 @@
 import React, { useState } from 'react';
 import { Button, Modal, ModalHeader, ModalBody, ModalFooter } from 'reactstrap';
-import { FormGroup, Label, Input, Form } from 'reactstrap';
+import { Card, FormGroup, Label, Input, Form } from 'reactstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import "./css/Contato.css"
 
 const Contato = () => {
+  document.title="Contato";
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [modal, setModal] = useState(false);
 
   const toggle = () => setModal(!modal);
-  document.title = "Contatos"
   return (
     <div className="corpoContato">
       
-    <Form className="bg-#24262b"
+    
+  <Card className="cd"> 
+  <Form className="bg-#24262b"
     fluid
   >
     
@@ -39,7 +41,7 @@ const Contato = () => {
     <Input
       id="exampleNumber"
       name="number"
-      placeholder="(xx) x xxxx-xxxx"
+      placeholder="(DDD) X XXXX-XXXX"
       type="number"
       
     />
@@ -84,9 +86,10 @@ const Contato = () => {
           
         </ModalFooter>
       </Modal>
+      
 </div>
   </Form>
-   
+</Card>
   </div>
   
 )}
