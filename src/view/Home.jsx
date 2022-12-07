@@ -72,7 +72,7 @@ function Home(args) {
             </CarouselItem>
         );
     });
-
+        document.title = "Home";
     return (
         <Container className="Homepage">
 
