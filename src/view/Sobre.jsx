@@ -2,7 +2,7 @@ import React from 'react';
 import { Container, Row, Col, Toast, ToastHeader, ToastBody } from 'reactstrap';
 
 const Sobre = () => {
-  document.title = "Sobre"
+  document.title = "Sobre";
   return (
     <div>
       <h1 className="">Quem Somos</h1>
