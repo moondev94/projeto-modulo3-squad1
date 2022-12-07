@@ -10,6 +10,7 @@ const Contato = () => {
   const [modal, setModal] = useState(false);
 
   const toggle = () => setModal(!modal);
+  document.title = "Contatos"
   return (
     <div className="corpoContato">
       
