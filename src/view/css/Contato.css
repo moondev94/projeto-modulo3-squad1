@@ -1,10 +1,10 @@
 .corpoContato {
     font-family: sans-serif;
    justify-content: center;
-   background-color: #24262b;
-    padding: 10%;
+    padding: 5%;
+    display: flex;
 }
-formulario {
+.formulario {
 display: flex;
 justify-content: center;
 }
@@ -12,15 +12,30 @@ justify-content: center;
     display: grid;
     justify-content: center;
 }
-form {
-    font-size: 16px;
-    background-color: #24262b;
-    width: auto;
-    margin: auto;
-    padding: 20px;
-    
+.cd {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
-    text-align: center;
+    margin: 10px;
+    padding: 3%;
+    border-radius: 5px;
+    box-shadow: 8px 8px 8px 8px rgb(0 0 0 / 20%);
+    width: 33%;
+ 
+}
+
+.card {
+    --bs-card-bg: transparent;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 3%;
+ 
 }
 label {
     color: white;
@@ -29,7 +44,7 @@ label {
 form h1 {
     margin: 10px;
     color: white;
-    text-shadow: 3px 3px 3px grey;
+    
 }
 
 input:hover, textarea:hover, input:focus, textarea:focus {
