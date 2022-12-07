@@ -36,6 +36,7 @@ import logo35 from './imagens/vingadores2.jpg';
 
 
 const Filmes = () => {
+    document.title = "Filmes"
     return (
       
 <div>
