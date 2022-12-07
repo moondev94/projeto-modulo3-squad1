@@ -5,13 +5,13 @@ const Sobre = () => {
   document.title = "Sobre";
   return (
     <div>
-      <h1 className="">Quem Somos</h1>
+      <h1 className="p-3">Quem Somos</h1>
 
       <Container>
         <Row>
-          <Col className="">
+          <Col>
              <div className="p-3 my-2 rounded" >
-              <Col style={{width: 900,}}>
+              <Col>
                 <ToastBody style={{color: 'white'}}>
                 Nosso site de filmes foi criado para pessoas viciadas e apaixonadas por filmes. No nosso site você fica sabendo quais filmes são lançados, os que estão no cinema e aqueles que já estão em DVD, para você assistir em casa.  No nosso site é entreter o mundo, e é por isso que levamos até você os melhores filmes para computadores, notebooks, celulares, tablets ou outros dispositivos. Nossos clientes controlam o que querem ver e quando, sem anúncios, com uma única assinatura.  Os filmes podem nos ajudar a encontrar respostas, a compartilhar sentimentos e a aprender um pouco mais sobre nós mesmos e o mundo.
                </ToastBody>
