@@ -5,6 +5,7 @@ footer {
     display: flex;
     flex-wrap: wrap;
     position: sticky;
+    bottom: 1em;
     top: 100%;
     bottom: 100%;
     
