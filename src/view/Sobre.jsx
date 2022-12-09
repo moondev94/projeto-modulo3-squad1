@@ -43,7 +43,7 @@ const Sobre = () => {
            <img className="img" src="https://media-exp1.licdn.com/dms/image/C4E03AQH4_PQQ_J7lXA/profile-displayphoto-shrink_800_800/0/1625260631370?e=1675900800&v=beta&t=l8zBK_oePLFsTcfyvZn_GxG5HOQCKoZfBoiw8Ln_OX4" alt=""/>
             <h5 className="p-3 my-2">LUAN ALVES</h5>
               <h6>Função na Equipe </h6>
-              <p>Co-Facilitador</p>
+              <p className="p-3">Co-Facilitador</p>
            </ToastBody>
            </Card>
            </div>
@@ -56,7 +56,7 @@ const Sobre = () => {
            <img className="img" src="https://media-exp1.licdn.com/dms/image/D4D03AQE0mSVnQz6Beg/profile-displayphoto-shrink_800_800/0/1665256052199?e=1675900800&v=beta&t=n1Kc7fCblYTnDNzKqI8DKmCIQ88_iIxgGrozmpTaEkk" alt=""/>
             <h5 className="p-3 my-2">LUÍS HENRIQUE</h5>
              <h6>Função na Equipe</h6>
-              <p>Colaborador</p>
+              <p className="p-3">Colaborador</p>
            </ToastBody>
            </Card>
            </div>
@@ -69,7 +69,7 @@ const Sobre = () => {
            <img className="img" src="https://project-front-enders.vercel.app/img/pedro.jpg" alt=""/>
             <h5 className="p-3 my-2">PEDRO SOUZA</h5>
               <h6>Função na Equipe</h6>
-                <p>Colaborador</p>
+                <p className="p-3">Colaborador</p>
            </ToastBody>
            </Card>
            </div>
@@ -82,7 +82,7 @@ const Sobre = () => {
            <img className="img" src="https://nossosquad.vercel.app/img/patrick.jpg" alt=""/>
             <h5 className="p-3 my-2">PATRICK COSTA</h5>
              <h6>Função na Equipe</h6>
-              <p>Gestor de gente e engajamento</p>
+              <p className="p-3">Gestor de gente e engajamento</p>
            </ToastBody>
            </Card>
            </div>
