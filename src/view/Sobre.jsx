@@ -24,7 +24,7 @@ const Sobre = () => {
          <hr style={{color: 'rgb(233 30 99)', fontStyle: 'bold' }}></hr>
          <h1 className="p-3">Nossa <span>Equipe</span></h1>
          <div className="p-3 my-2 rounded">
-           <div>  
+           <div className="ct">  
            <Card className="cd" >
            <ToastBody>
            <img className="img" src="https://avatars.githubusercontent.com/u/85020469?v=4" alt=""/>
@@ -35,7 +35,7 @@ const Sobre = () => {
          </div>
 
          <div className="p-3 my-2 rounded">
-           <div>  
+           <div className="ct">  
            <Card className="cd" >
            <ToastBody>
            <img className="img" src="https://media-exp1.licdn.com/dms/image/C4E03AQH4_PQQ_J7lXA/profile-displayphoto-shrink_800_800/0/1625260631370?e=1675900800&v=beta&t=l8zBK_oePLFsTcfyvZn_GxG5HOQCKoZfBoiw8Ln_OX4" alt=""/>
@@ -46,7 +46,7 @@ const Sobre = () => {
          </div>
 
          <div className="p-3 my-2 rounded">
-           <div>  
+           <div className="ct">  
            <Card className="cd" >
            <ToastBody>
            <img className="img" src="https://media-exp1.licdn.com/dms/image/D4D03AQE0mSVnQz6Beg/profile-displayphoto-shrink_800_800/0/1665256052199?e=1675900800&v=beta&t=n1Kc7fCblYTnDNzKqI8DKmCIQ88_iIxgGrozmpTaEkk" alt=""/>
@@ -57,7 +57,7 @@ const Sobre = () => {
          </div>
 
          <div className="p-3 my-2 rounded">
-           <div>  
+           <div className="ct">  
            <Card className="cd" >
            <ToastBody>
            <img className="img" src="https://project-front-enders.vercel.app/img/pedro.jpg" alt=""/>
@@ -68,7 +68,7 @@ const Sobre = () => {
          </div>
 
          <div className="p-3 my-2 rounded">
-           <div>  
+           <div className="ct">  
            <Card className="cd">
            <ToastBody>
            <img className="img" src="https://nossosquad.vercel.app/img/patrick.jpg" alt=""/>
