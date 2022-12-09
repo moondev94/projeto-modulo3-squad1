@@ -30,7 +30,7 @@ const Sobre = () => {
            <img className="img" src="https://avatars.githubusercontent.com/u/85020469?v=4" alt=""/>
             <h5 className="p-3 my-2">JUAN SALES</h5>
              <h6>Função na Equipe</h6>
-               <p>Gestor de Conhecimento</p>
+               <p className="p-3">Gestor de Conhecimento</p>
            </ToastBody>
            </Card>
            </div>
