@@ -25,10 +25,12 @@ const Sobre = () => {
          <h1 className="p-3">Nossa <span>Equipe</span></h1>
          <div className="p-3 my-2 rounded">
            <div className="ct">  
-           <Card className="cd" >
+           <Card className="cd">
            <ToastBody>
            <img className="img" src="https://avatars.githubusercontent.com/u/85020469?v=4" alt=""/>
-            <p className="p-3 my-2">JUAN SALES</p>
+            <h5 className="p-3 my-2">JUAN SALES</h5>
+             <h6>Função na Equipe</h6>
+               <p>Gestor de Conhecimento</p>
            </ToastBody>
            </Card>
            </div>
@@ -36,10 +38,12 @@ const Sobre = () => {
 
          <div className="p-3 my-2 rounded">
            <div className="ct">  
-           <Card className="cd" >
+           <Card className="cd">
            <ToastBody>
            <img className="img" src="https://media-exp1.licdn.com/dms/image/C4E03AQH4_PQQ_J7lXA/profile-displayphoto-shrink_800_800/0/1625260631370?e=1675900800&v=beta&t=l8zBK_oePLFsTcfyvZn_GxG5HOQCKoZfBoiw8Ln_OX4" alt=""/>
-            <p className="p-3 my-2">LUAN ALVES</p>
+            <h5 className="p-3 my-2">LUAN ALVES</h5>
+              <h6>Função na Equipe </h6>
+              <p>Co-Facilitador</p>
            </ToastBody>
            </Card>
            </div>
@@ -47,10 +51,12 @@ const Sobre = () => {
 
          <div className="p-3 my-2 rounded">
            <div className="ct">  
-           <Card className="cd" >
+           <Card className="cd">
            <ToastBody>
            <img className="img" src="https://media-exp1.licdn.com/dms/image/D4D03AQE0mSVnQz6Beg/profile-displayphoto-shrink_800_800/0/1665256052199?e=1675900800&v=beta&t=n1Kc7fCblYTnDNzKqI8DKmCIQ88_iIxgGrozmpTaEkk" alt=""/>
-            <p className="p-3 my-2">LUÍS HENRIQUE</p>
+            <h5 className="p-3 my-2">LUÍS HENRIQUE</h5>
+             <h6>Função na Equipe</h6>
+              <p>Colaborador</p>
            </ToastBody>
            </Card>
            </div>
@@ -58,10 +64,12 @@ const Sobre = () => {
 
          <div className="p-3 my-2 rounded">
            <div className="ct">  
-           <Card className="cd" >
+           <Card className="cd">
            <ToastBody>
            <img className="img" src="https://project-front-enders.vercel.app/img/pedro.jpg" alt=""/>
-            <p className="p-3 my-2">Pedro Souza</p>
+            <h5 className="p-3 my-2">PEDRO SOUZA</h5>
+              <h6>Função na Equipe</h6>
+                <p>Colaborador</p>
            </ToastBody>
            </Card>
            </div>
@@ -72,7 +80,9 @@ const Sobre = () => {
            <Card className="cd">
            <ToastBody>
            <img className="img" src="https://nossosquad.vercel.app/img/patrick.jpg" alt=""/>
-            <p className="p-3 my-2">PATRICK COSTA</p>
+            <h5 className="p-3 my-2">PATRICK COSTA</h5>
+             <h6>Função na Equipe</h6>
+              <p>Gestor de gente e engajamento</p>
            </ToastBody>
            </Card>
            </div>
