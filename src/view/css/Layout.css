@@ -118,6 +118,11 @@ input.SearchTxt:hover {
     box-shadow: 1px 2px 5px 0px rosybrown;
 }
 
+input.SearchTxt:focus {
+    border-radius: 40px 40px 40px 40px;
+    box-shadow: 1px 2px 5px 0px rosybrown;
+}
+
 
 
 input.SearchBox:hover > .SearchBtn {
