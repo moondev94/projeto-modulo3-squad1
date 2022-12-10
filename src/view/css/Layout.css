@@ -107,12 +107,24 @@ h1 {
     width: 240px;
 }
 
-.SearchBox:hover > .SearchTxt {
+input.SearchBox:hover > .SearchTxt {
     width: 240px;
     padding: 0 6px;
+
 }
 
-.SearchBox:hover > .SearchBtn {
+input.SearchTxt:hover {
+    border-radius: 40px 40px 40px 40px;
+    box-shadow: 1px 2px 5px 0px rosybrown;
+}
+
+
+input.SearchTxt:focus {
+    border: none;
+    box-shadow: none;
+}
+
+input.SearchBox:hover > .SearchBtn {
     background: #ffffff;
 
 }
