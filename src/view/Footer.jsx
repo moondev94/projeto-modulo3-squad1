@@ -17,7 +17,7 @@ const Footer = () => {
                             <h4>Sobre</h4>
                             <ul>
                                 <li><a href="./view/Equipe.jsx">Quem Somos</a></li>
-                                <li><a href="#">FAQ</a></li>
+                                <li><a href="/FAQ.jsx">FAQ</a></li>
                                 <li><a href="#">Política de Privacidade</a></li>
                                 <li><a href="#"></a></li>
                                 <li><a href="#"></a></li>
