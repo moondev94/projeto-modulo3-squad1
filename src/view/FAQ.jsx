@@ -23,7 +23,7 @@ const data = {
     }]
 }
 
-export default class faq extends Component {
+export default class Faq extends Component {
   render() {
     return (
       <div className='corpoQuest'>
