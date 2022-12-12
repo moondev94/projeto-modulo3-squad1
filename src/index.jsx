@@ -8,7 +8,6 @@ import Contato from "./view/Contato";
 import Sobre from "./view/Sobre";
 import NoPage from "./view/NoPage";
 import Footer from "./view/Footer";
-import Qst from "./view/FAQ";
 
 
 export default function App() {
@@ -21,7 +20,7 @@ export default function App() {
           <Route path="Sobre" element={<Sobre />} />
           <Route path="Contato" element={<Contato />} />
           <Route path="*" element={<NoPage />} />
-          <Route path="Qst" element={<Qst />} />
+          
         </Route>
       </Routes>
     </BrowserRouter>
