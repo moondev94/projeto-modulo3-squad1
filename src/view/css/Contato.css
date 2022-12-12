@@ -56,7 +56,8 @@ input:hover, textarea:hover, input:focus, textarea:focus {
 .modal-body {
     color: black;
 }
-.ModalHeader {
+.ModalHeader h5{
     color: #e91e63;
     text-aling: center;
+    
 }
