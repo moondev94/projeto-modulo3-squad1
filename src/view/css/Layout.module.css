@@ -148,11 +148,8 @@ body {
         margin-top: 3rem;
         display: flex;
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        position:sticky;
-        color: #ffffff;
-        align-items: center;
+        
+        
     }
     
     .btn {
@@ -173,11 +170,7 @@ body {
         margin-top: 3rem;
         display: flex;
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        position:sticky;
-        color: #ffffff;
-        align-items: center;
+        
     }
 
     .btn {
