@@ -10,3 +10,8 @@ span{
 .ct{
     text-align: center;
 }
+.grupo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}

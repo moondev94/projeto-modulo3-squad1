@@ -8,6 +8,7 @@
 .Header {
     color: #ffffff;
     overflow: hidden;
+    
 }
 
 h1 {
@@ -32,7 +33,19 @@ h1 {
     justify-content: center;
     align-items: center;
 }
-
+.Layout_navMenu__PrgY2 {
+    align-items: center;
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 2%;
+    position: -webkit-sticky;
+    position: sticky;
+    width: 100vw;
+    padding: 5%;
+}
 .NavLogo a {
     color:#e91e63;
 }

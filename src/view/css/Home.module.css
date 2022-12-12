@@ -13,17 +13,18 @@
 
 .spotLight {
     flex-direction: row;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     align-content: center;
     justify-content: center;
-    margin-bottom: 3%;
-    padding: 1em;
+    margin-bottom: 8%;
+    margin-top: 5%;
     display: flex;
     position: relative;
-    width: 70%;
-   
 }
 
+.img.cd.card{
+width: 100%;
+}
 .col-sm {
     display: flex;
     padding: 2em;
@@ -41,12 +42,19 @@ h5 {
     font-size: 13px;
     padding-bottom: 0.5em;
 }
-.card {
-    display: inline-block;
-    flex-direction: row;
-    width: 40%;
-    height: 40%;
-
+.cd{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    margin: 10px;
+    padding: 3%;
+    border-radius: 5px;
+    box-shadow: 8px 8px 8px 8px rgb(0 0 0 / 20%);
+    width: 33%;
+}
+.img{
+    width: 100%;
 }
 
 @media only screen and (max-device-width: 480px) {
