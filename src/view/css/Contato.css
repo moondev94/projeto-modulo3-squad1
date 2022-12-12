@@ -58,4 +58,5 @@ input:hover, textarea:hover, input:focus, textarea:focus {
 }
 .ModalHeader {
     color: #e91e63;
+    text-aling: center;
 }
