@@ -9,15 +9,15 @@ import YoutubeIcon from "./media/youtube.png";
 
 const Footer = () => {
     return (
-        <Row className={styles.Footer}>
+        <Row className={styles.footer}>
             <footer className={styles.stickyFooter}>
                 <Container className={styles.container}>
                     <Row className={styles.row}>
                         <Col className={styles.footerCol}>
                             <h4>Sobre</h4>
                             <ul>
-                                <li><a href="/Sobre">Quem Somos</a></li>
-                                <li><a href="/Qst">FAQ</a></li>
+                                <li><a href="./view/Equipe.jsx">Quem Somos</a></li>
+                                <li><a href="#">FAQ</a></li>
                                 <li><a href="#">Política de Privacidade</a></li>
                                 <li><a href="#"></a></li>
                                 <li><a href="#"></a></li>
