@@ -20,7 +20,7 @@ export default function App() {
           <Route path="Sobre" element={<Sobre />} />
           <Route path="Contato" element={<Contato />} />
           <Route path="*" element={<NoPage />} />
-          <Route path="Qst" element={<faq />} />
+          <Route path="Qst" element={<Qst />} />
         </Route>
       </Routes>
     </BrowserRouter>
