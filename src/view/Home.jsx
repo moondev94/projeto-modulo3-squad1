@@ -143,7 +143,7 @@ function Home(args) {
         </Col>
       </Col>
       <Col className={styles.top10}>
-      <h2><span>#</span> TOP<span>10</span></h2>
+      <h2><span>#</span> TOP<span> 10</span></h2>
         <p></p>
         <Col className="col-sm px-0">
         <ul>
