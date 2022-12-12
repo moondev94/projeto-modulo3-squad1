@@ -33,6 +33,12 @@ const Sobre = () => {
             <h5 >JUAN SALES</h5>
              
                <p >Gestor de Conhecimento</p>
+
+               <div className="social">
+                <a href="https://github.com/Juangsales"><img src="https://raw.githubusercontent.com/caaiopereira/project-front-enders/main/img/git.png" alt=""/></a>
+                <a href=""><img src="https://project-front-enders.vercel.app/img/inst.png" alt=""/></a>
+                <a href="https://www.linkedin.com/in/juan-sales-723524158/"><img src="https://project-front-enders.vercel.app/img/linkedin.png" alt=""/></a>
+               </div>
            
            </Card>
 
@@ -43,6 +49,11 @@ const Sobre = () => {
             <h5 >LUAN ALVES</h5>
               
               <p >Co-Facilitador</p>
+              <div className="social">
+                <a href="https://github.com/luanmartins8"><img src="https://raw.githubusercontent.com/caaiopereira/project-front-enders/main/img/git.png" alt=""/></a>
+                <a href=""><img src="https://project-front-enders.vercel.app/img/inst.png" alt=""/></a>
+                <a href="https://www.linkedin.com/in/luan-martins-55b33916b/"><img src="https://project-front-enders.vercel.app/img/linkedin.png" alt=""/></a>
+               </div>
            
            </Card>
           
@@ -54,6 +65,11 @@ const Sobre = () => {
             <h5 >LUÍS HENRIQUE</h5>
              
               <p >Colaborador</p>
+              <div className="social">
+                <a href="https://github.com/Luis-Henrique-Lima"><img src="https://raw.githubusercontent.com/caaiopereira/project-front-enders/main/img/git.png" alt=""/></a>
+                <a href=""><img src="https://project-front-enders.vercel.app/img/inst.png" alt=""/></a>
+                <a href="https://www.linkedin.com/in/lu%C3%ADs-henrique-santos/"><img src="https://project-front-enders.vercel.app/img/linkedin.png" alt=""/></a>
+               </div>
            
            </Card>
           
@@ -65,6 +81,11 @@ const Sobre = () => {
             <h5 >PEDRO SOUZA</h5>
               
                 <p >Colaborador</p>
+                <div className="social">
+                <a href="https://github.com/themonsteer"><img src="https://raw.githubusercontent.com/caaiopereira/project-front-enders/main/img/git.png" alt=""/></a>
+                <a href=""><img src="https://project-front-enders.vercel.app/img/inst.png" alt=""/></a>
+                <a href="https://www.linkedin.com/in/pedro-souza-a382b3182/"><img src="https://project-front-enders.vercel.app/img/linkedin.png" alt=""/></a>
+               </div>
            
            </Card>  
            <Card className="cd">
@@ -73,6 +94,11 @@ const Sobre = () => {
             <h5>PATRICK COSTA</h5>
             
               <p>Gestor de engajamento</p>
+              <div className="social">
+                <a href="https://github.com/pkdev95"><img src="https://raw.githubusercontent.com/caaiopereira/project-front-enders/main/img/git.png" alt=""/></a>
+                <a href=""><img src="https://project-front-enders.vercel.app/img/inst.png" alt=""/></a>
+                <a href=""><img src="https://project-front-enders.vercel.app/img/linkedin.png" alt=""/></a>
+               </div>
            
            </Card>
            
