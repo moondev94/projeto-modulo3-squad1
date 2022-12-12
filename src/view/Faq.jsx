@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Faq from 'react-faq-component';
-import "./css/FAQ.css";
+import "./css/Faq.css";
 
 const data = {
   title: "F.A.Q. - Perguntas frequentes",
