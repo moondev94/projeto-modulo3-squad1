@@ -8,6 +8,7 @@
 .header {
     color: #ffffff;
     overflow: hidden;
+    padding: 2%;
 }
 
 h1 {
@@ -15,7 +16,7 @@ h1 {
 }
 
 .navMenu {
-    
+    margin-top: 2%;
     width: 100vw;
     display: flex;
     flex-direction: row;
@@ -24,15 +25,17 @@ h1 {
     align-items: center;
     position: sticky;
     color: #ffffff;
+    
 }
 
 .navLogo {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
+    height: 82.7px;
     width: 381.5px;
     transform: translate(-10%, 10%);
-    padding: 5%;
+
 }
 
 .navLogo a {

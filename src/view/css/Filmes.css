@@ -9,7 +9,7 @@
  justify-content: space-between;
  margin: 0.5em;
 }
-.nome {
-    background-color: #24262b;
-    color: #ffffff;
+.corpoFilme {
+    background-color: transparent;
+    padding-top: 3%;
 }
