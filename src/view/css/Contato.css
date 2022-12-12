@@ -58,3 +58,6 @@ input:hover, textarea:hover, input:focus, textarea:focus {
     color: black;
     font-weight: bold;
 }
+.modal-body {
+    color: black;
+}
