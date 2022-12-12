@@ -75,7 +75,7 @@ const Contato = () => {
        Enviar
       </Button>
       <Modal isOpen={modal} toggle={toggle} >
-        <span toggle={toggle}>Mensagem enviada!</span>
+        <ModalHeader toggle={toggle}>Mensagem enviada!</ModalHeader>
         <ModalBody>
           Olá {name}, em breve retornaremos sua mensagem para seu e-mail {email}, aguarde em até 24 horas.
         </ModalBody>
