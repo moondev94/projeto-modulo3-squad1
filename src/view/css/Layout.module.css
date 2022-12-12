@@ -16,7 +16,7 @@ h1 {
 }
 
 .navMenu {
-    margin-top: 3rem;
+    margin-top: 5rem;
     width: 100vw;
     display: flex;
     flex-direction: row;
@@ -26,6 +26,7 @@ h1 {
     position: sticky;
     color: #ffffff;
     align-items: inherit;
+    margin-bottom: 3rem;
 }
 
 .navLogo {
@@ -48,6 +49,7 @@ h1 {
     list-style: none;
     text-transform: capitalize;
     color: #bbbbbb;
+    transform: translate(-40%);
 
 }
 
@@ -77,6 +79,7 @@ h1 {
     height: 40px;
     border-radius: 40px;
     padding: 1px;
+    margin-bottom: 1em;
 }
 
 .searchBtn {
@@ -142,6 +145,10 @@ body {
         color: #ffffff;
         align-items: center;
     }
+    
+    .btn {
+        transform: none;
+    }
 
 
 }
@@ -162,6 +169,10 @@ body {
         position:sticky;
         color: #ffffff;
         align-items: center;
+    }
+
+    .btn {
+        transform: none;
     }
 
 }

@@ -11,10 +11,7 @@ const Layout = () => {
         <Row className={styles.row}>
           <div className={styles.navMenu}>
             <NavbarBrand className={styles.navLogo} href="/">
-              <img
-                alt="DevPlay TV"
-                src={Logo}
-              />
+              <img alt="DevPlay TV" src={Logo} />
             </NavbarBrand>
             <Button className={styles.btn} color="none" href="/" tag="a">
               <a>
@@ -48,10 +45,9 @@ const Layout = () => {
                 placeholder="Search"
               />
               <a className={styles.searchBtn} href="#">
-              <i class="bi bi-search"></i>
+                <i class="bi bi-search"></i>
               </a>
-              </div>
-        
+            </div>
           </div>
         </Row>
       </Navbar>
