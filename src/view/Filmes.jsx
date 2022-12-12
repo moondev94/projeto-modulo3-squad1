@@ -33,18 +33,23 @@ import logo32 from './imagens/Vida.jpg';
 import logo33 from './imagens/vigilanteDoAmanha.jpg';
 import logo34 from './imagens/Vingadores.jpg';
 import logo35 from './imagens/vingadores2.jpg';
-
+import {
+  Container,
+  Col,
+  Row
+} from "reactstrap";
+import "./css/Filmes.css";
 
 const Filmes = () => {
     document.title = "Filmes"
     return (
       
-<div>
-  <div className='nome'>
-<h1 >Filmes</h1>
+<Container className="corpoFilme">
+  <Row className='nome'>
+<h1>Filmes</h1>
 <br></br>
-  <h2 >Devs</h2>
-    <div className='devsfilmes'>
+<h2><span>Devs</span></h2>
+    <Col className='devsfilmes'>
  <div className='listafilme'>
        <div className='filmes'><img className="foto" src={logo20}/></div>
        <div className='filmes'><img className="foto" src={logo28}/></div>
@@ -54,9 +59,9 @@ const Filmes = () => {
        <div className='filmes'><img className="foto" src={logo13}/></div>
        <div className='filmes'><img className="foto" src={logo10}/></div>
        </div>
-       </div>
-  <h2>Ação</h2>
-    <div className='acaofilmes'>
+       </Col>
+  <h2><span>Ação</span></h2>
+    <Col className='acaofilmes'>
        <div className='listafilme'>
        <div className='filmes'><img className="foto" src={logo3}/></div>
        <div className='filmes'><img className="foto" src={logo4}/></div>
@@ -66,8 +71,9 @@ const Filmes = () => {
        <div className='filmes'><img className="foto" src={logo34}/></div>
        <div className='filmes'><img className="foto" src={logo35}/></div>
        </div>
-  <h2>Animação</h2>
-    <div className='animacaofilmes'>
+       </Col>
+       <h2><span>Animação</span></h2>
+    <Col className='animacaofilmes'>
        <div className='listafilme'>
        <div className='filmes'><img className="foto" src={logo19}/></div>
        <div className='filmes'><img className="foto" src={logo30}/></div>
@@ -77,8 +83,9 @@ const Filmes = () => {
        <div className='filmes'><img className="foto" src={logo8}/></div>
        <div className='filmes'><img className="foto" src={logo5}/></div>
        </div>
-  <h2>Terror</h2>
-    <div className='terrorfilmes'>
+       </Col>
+       <h2><span>Terror</span></h2>
+    <Col className='terrorfilmes'>
        <div className='listafilme'>
        <div className='filmes'><img className="foto" src={logo31}/></div>
        <div className='filmes'><img className="foto" src={logo29}/></div>
@@ -88,9 +95,9 @@ const Filmes = () => {
        <div className='filmes'><img className="foto" src={logo6}/></div>
        <div className='filmes'><img className="foto" src={logo2}/></div>
        </div>
-       </div>
-  <h2 >Ficção Cientifica</h2>
-    <div className='ficcaofilmes'>
+       </Col>
+       <h2><span>Ficção Cientifica</span></h2>
+    <Col className='ficcaofilmes'>
   <div className='listafilme'>
        <div className='filmes'><img className="foto" src={logo32}/></div>
        <div className='filmes'><img className="foto" src={logo25}/></div>
@@ -100,10 +107,10 @@ const Filmes = () => {
        <div className='filmes'><img className="foto" src={logo7}/></div>
        <div className='filmes'><img className="foto" src={logo}/></div>
        </div>
-    </div>
-    </div></div>
-</div>
-</div>
+    </Col>
+
+</Row>
+</Container>
     )
   };
  

@@ -20,7 +20,7 @@ const Contato = () => {
     fluid
   >
     
-      <h1>Entre em contato</h1>
+      <h1>Entre em <span>contato</span></h1>
       
       
       <FormGroup>

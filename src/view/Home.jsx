@@ -6,8 +6,8 @@ import {
   CarouselIndicators,
   CarouselCaption,
   Container,
-  Row,
   Col,
+  Row,
   Card,
   CardBody,
   CardTitle,
@@ -81,8 +81,8 @@ function Home(args) {
   });
   document.title = "Home";
   return (
-    <Container className={styles.homePage}>
-      <Col className={styles.slideCarousel}>
+    <Row className={styles.homePage}>
+      <Row className={styles.slideCarousel}>
         <Carousel
           activeIndex={activeIndex}
           next={next}
@@ -106,13 +106,14 @@ function Home(args) {
             onClickHandler={next}
           />
         </Carousel>
-      </Col>
-
+      </Row>
+     
       <Row className={styles.spotLight}>
-        <Row className={styles.card}>
-          <img alt="Card" src={Top1} />
+        
+        <Card className={styles.cd}>
+          <img className={styles.img} alt="Card" src={Top1} />
 
-          <div className="cardBody">
+         
             <h5>Vingadores: Ultimato</h5>
             <div className={styles.cardTxt}>
               <a>
@@ -120,10 +121,10 @@ function Home(args) {
                 Guerra Infinita, os heróis precisam... Ler mais
               </a>
             </div>
-          </div>
-
-          <img alt="Card" src={Top2} />
-          <div className="cardBody">
+          </Card>
+          <Card className={styles.cd}>
+          <img className={styles.img} alt="Card" src={Top2} />
+          
             <h5>Liga da Justiça</h5>
             <div className={styles.cardTxt}>
               <a>
@@ -133,10 +134,10 @@ function Home(args) {
                 Gadot)... Ler mais
               </a>
             </div>
-          </div>
-
-          <img alt="Card" src={Top3} />
-          <div className="cardBody">
+          </Card>
+          <Card className={styles.cd}>
+          <img className={styles.img} alt="Card" src={Top3} />
+          
             <h5>Hereditário</h5>
             <div className={styles.cardTxt}>
               <a>
@@ -144,10 +145,11 @@ function Home(args) {
                 algumas coisas. Mesmo após a partida da matriarca... Ler mais
               </a>
             </div>
-          </div>
-        </Row>
-      </Row>
-    </Container>
+          </Card>
+          </Row>
+          </Row>
+        
+    
   );
 }
 
