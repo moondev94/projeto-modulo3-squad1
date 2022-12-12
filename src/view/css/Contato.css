@@ -49,8 +49,8 @@ form h1 {
 
 
 input:hover, textarea:hover, input:focus, textarea:focus {
-    border-color: grey;
-    box-shadow: 3px 2px 5px rosybrown;
+    border-radius: 40px 40px 40px 40px;
+    box-shadow: 1px 2px 5px 0px rosybrown;
     color: black;
     font-weight: bold;
 }
