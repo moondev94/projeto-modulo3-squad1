@@ -109,8 +109,12 @@ h1 {
 }
 
 input.searchTxt:hover {
-    border-radius: 40px 40px 40px 40px;
-    box-shadow: 1px 2px 5px 0px rosybrown;
+    border-radius: none;
+    box-shadow: none;
+}
+input.searchTxt:focus {
+    border-radius: none;
+    box-shadow: none;
 }
 
 .searchBox:hover>.searchTxt {
