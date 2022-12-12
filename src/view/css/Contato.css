@@ -46,11 +46,6 @@ form h1 {
     color: white;
     
 }
-modal-content.span {
-    font-size: 25px;
-    text-align: center;
-    padding: 3%;
-}
 
 input:hover, textarea:hover, input:focus, textarea:focus {
     border-color: grey;
