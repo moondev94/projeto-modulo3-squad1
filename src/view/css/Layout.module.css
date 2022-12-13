@@ -29,9 +29,6 @@ h1 {
     margin-bottom: 3rem;
 }
 
-img.navLogo {
-    height: 110%
-}
 .navLogo {
     display: flex;
     height: 82.7px;
