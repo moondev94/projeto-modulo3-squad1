@@ -154,7 +154,9 @@ body {
         
         
     }
-    
+    .navLogo {
+     height: 15%;
+    }
     .btn {
         transform: none;
     }
@@ -168,7 +170,9 @@ body {
         display: flex;
         flex-direction: column;
     }
-
+.navLogo {
+     height: 15%;
+    }
     .navMenu {
         margin-top: 3rem;
         display: flex;
