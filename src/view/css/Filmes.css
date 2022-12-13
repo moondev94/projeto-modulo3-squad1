@@ -1,15 +1,35 @@
-.listafilme{
-    pointer-events: visible;
+
+
+.lll{
     display: flex;
-    width: 400px;
-    height: 400px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0.5em;
+    flex-wrap: wrap;
+    
 }
+
 .filmes{
  display: flex;
+ flex-wrap: wrap;
  justify-content: space-between;
  margin: 0.5em;
+ pointer-events: visible;
+  width: 400px;
+  height: 400px;
 }
-.corpoFilme {
-    background-color: transparent;
-    padding-top: 3%;
+
+
+.nome {
+    background-color: #24262b;
+    color: #ffffff;
 }
+
+.imgg{
+    width: 400px;
+    height: 400px;
+
+}
+
+
+

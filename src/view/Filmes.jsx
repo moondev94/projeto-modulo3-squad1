@@ -33,84 +33,89 @@ import logo32 from './imagens/Vida.jpg';
 import logo33 from './imagens/vigilanteDoAmanha.jpg';
 import logo34 from './imagens/Vingadores.jpg';
 import logo35 from './imagens/vingadores2.jpg';
-import {
-  Container,
-  Col,
-  Row
-} from "reactstrap";
-import "./css/Filmes.css";
+import axios from 'axios';
+import React, { useState, useEffect } from 'react';
+
+
+
 
 const Filmes = () => {
     document.title = "Filmes"
+
+    const[apiData, setApiData] = useState([]);
+    useEffect(() =>{
+        axios.get('https://trabalhoindividualjs.vercel.app/terror')
+        .then((getData) => {
+            setApiData(getData.data); 
+        })
+    }, []); 
+
+    const setID = (id) => {
+        console.log(id);
+        localStorage.setItem('ID', id)
+    }
+     
+    const setData = (id, filme, diretor, duracao, lancamento) => {
+        localStorage.setItem('ID', id)
+        localStorage.setItem('filme', filme)
+        localStorage.setItem('diretor', diretor)
+        localStorage.setItem('duracao', duracao)
+        localStorage.setItem('lancamento', lancamento)
+    }
+
+  const getData = () => [
+    axios.get('https://trabalhoindividualjs.vercel.app/terror')
+    .then((getData) => {
+        setApiData(getData.data);
+    })
+
+  ]
+
+
+  const onDelete = (id) =>{
+  axios.delete(`https://trabalhoindividualjs.vercel.app/terror/${id}`)
+  .then(() =>{
+    getData();
+  })
+
+
+
+  }
+
+
+  
+
     return (
       
-<Container className="corpoFilme">
-  <Row className='nome'>
-<h1>Filmes</h1>
+<div>
+  <div className='nome'>
+ 
+                      
+<h1 >Filmes</h1>
 <br></br>
-<h2><span>Devs</span></h2>
-    <Col className='devsfilmes'>
+    <div className='devsfilmes'>
+      
  <div className='listafilme'>
-       <div className='filmes'><img className="foto" src={logo20}/></div>
-       <div className='filmes'><img className="foto" src={logo28}/></div>
-       <div className='filmes'><img className="foto" src={logo33}/></div>
-       <div className='filmes'><img className="foto" src={logo22}/></div>
-       <div className='filmes'><img className="foto" src={logo18}/></div>
-       <div className='filmes'><img className="foto" src={logo13}/></div>
-       <div className='filmes'><img className="foto" src={logo10}/></div>
-       </div>
-       </Col>
-  <h2><span>Ação</span></h2>
-    <Col className='acaofilmes'>
-       <div className='listafilme'>
-       <div className='filmes'><img className="foto" src={logo3}/></div>
-       <div className='filmes'><img className="foto" src={logo4}/></div>
-       <div className='filmes'><img className="foto" src={logo12}/></div>
-       <div className='filmes'><img className="foto" src={logo14}/></div>
-       <div className='filmes'><img className="foto" src={logo15}/></div>
-       <div className='filmes'><img className="foto" src={logo34}/></div>
-       <div className='filmes'><img className="foto" src={logo35}/></div>
-       </div>
-       </Col>
-       <h2><span>Animação</span></h2>
-    <Col className='animacaofilmes'>
-       <div className='listafilme'>
-       <div className='filmes'><img className="foto" src={logo19}/></div>
-       <div className='filmes'><img className="foto" src={logo30}/></div>
-       <div className='filmes'><img className="foto" src={logo23}/></div>
-       <div className='filmes'><img className="foto" src={logo24}/></div>
-       <div className='filmes'><img className="foto" src={logo11}/></div>
-       <div className='filmes'><img className="foto" src={logo8}/></div>
-       <div className='filmes'><img className="foto" src={logo5}/></div>
-       </div>
-       </Col>
-       <h2><span>Terror</span></h2>
-    <Col className='terrorfilmes'>
-       <div className='listafilme'>
-       <div className='filmes'><img className="foto" src={logo31}/></div>
-       <div className='filmes'><img className="foto" src={logo29}/></div>
-       <div className='filmes'><img className="foto" src={logo21}/></div>
-       <div className='filmes'><img className="foto" src={logo16}/></div>
-       <div className='filmes'><img className="foto" src={logo9}/></div>
-       <div className='filmes'><img className="foto" src={logo6}/></div>
-       <div className='filmes'><img className="foto" src={logo2}/></div>
-       </div>
-       </Col>
-       <h2><span>Ficção Cientifica</span></h2>
-    <Col className='ficcaofilmes'>
-  <div className='listafilme'>
-       <div className='filmes'><img className="foto" src={logo32}/></div>
-       <div className='filmes'><img className="foto" src={logo25}/></div>
-       <div className='filmes'><img className="foto" src={logo26}/></div>
-       <div className='filmes'><img className="foto" src={logo27}/></div>
-       <div className='filmes'><img className="foto" src={logo17}/></div>
-       <div className='filmes'><img className="foto" src={logo7}/></div>
-       <div className='filmes'><img className="foto" src={logo}/></div>
-       </div>
-    </Col>
+ {apiData.map((data) => {
+   
+   return( 
+   
+   <div className='lll'>
+    <ul>
+      <img className='imgg' src={data.imagem}></img>
+      <p> Nome: {data.nome} <br></br> Diretor: {data.diretor} <br></br> Duração: {data.duracao} <br></br> Lançamento: {data.lancamento}</p>
+    </ul>
+     
 
-</Row>
-</Container>
+      </div>
+  
+ 
+    )
+    })}
+    </div></div>
+</div>
+  
+</div>
     )
   };
  

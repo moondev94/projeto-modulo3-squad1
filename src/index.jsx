@@ -1,3 +1,4 @@
+import 'semantic-ui-css/semantic.min.css';
 import "./view/css/Filmes.css";
 import ReactDOM from "react-dom/client";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
@@ -8,7 +9,9 @@ import Contato from "./view/Contato";
 import Sobre from "./view/Sobre";
 import NoPage from "./view/NoPage";
 import Footer from "./view/Footer";
-
+import FAQ from "./view/FAQ";
+import AdmPage from "./view/AdmPage";
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 export default function App() {
   return (
@@ -20,6 +23,8 @@ export default function App() {
           <Route path="Sobre" element={<Sobre />} />
           <Route path="Contato" element={<Contato />} />
           <Route path="*" element={<NoPage />} />
+          <Route path="FAQ" element={<FAQ />}/>
+          <Route path="AdmPage" element={<AdmPage />}/>
           
         </Route>
       </Routes>

@@ -5,11 +5,12 @@ import FacebookIcon from "./media/facebook.png";
 import InstagramIcon from "./media/instagram.png";
 import TwitterIcon from "./media/twitter.png";
 import YoutubeIcon from "./media/youtube.png";
+import AdmPage from "./AdmPage";
 
 
 const Footer = () => {
     return (
-        <Row className={styles.footer}>
+        <Row className={styles.Footer}>
             <footer className={styles.stickyFooter}>
                 <Container className={styles.container}>
                     <Row className={styles.row}>
@@ -17,9 +18,9 @@ const Footer = () => {
                             <h4>Sobre</h4>
                             <ul>
                                 <li><a href="/Sobre">Quem Somos</a></li>
-                                <li><a href="/NoPage">FAQ</a></li>
-                                <li><a href="/NoPage">Política de Privacidade</a></li>
-                                <li><a href="#"></a></li>
+                                <li><a href="/FAQ">FAQ</a></li>
+                                <li><a href="#">Política de Privacidade</a></li>
+                                <li><a href="/AdmPage">Adm Page</a></li>
                                 <li><a href="#"></a></li>
                             </ul>
                         </Col>
