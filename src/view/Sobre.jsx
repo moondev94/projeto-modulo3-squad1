@@ -39,7 +39,7 @@ const Sobre = () => {
 
             <Col className="socialLinks">
 
-              <a href="https://github.com/Juangsales"><img alt="SocialMedia" src={GithubIcon}
+              <a href="https://github.com/Juangsales" target="_blank"><img alt="SocialMedia" src={GithubIcon}
                 style={{
                   height: 25,
                   width: 25,
@@ -49,7 +49,7 @@ const Sobre = () => {
                   height: 25,
                   width: 25,
                 }} /></a>
-              <a href="https://www.linkedin.com/in/juan-sales-723524158/"><img alt="SocialMedia" src={LinkedinIcon}
+              <a href="https://www.linkedin.com/in/juan-sales-723524158/" target="_blank"><img alt="SocialMedia" src={LinkedinIcon}
                 style={{
                   height: 25,
                   width: 25,
@@ -68,7 +68,7 @@ const Sobre = () => {
             <br></br>
             <Col className="socialLinks">
 
-              <a href="https://github.com/luanmartins8"><img alt="SocialMedia" src={GithubIcon}
+              <a href="https://github.com/luanmartins8" target="_blank"><img alt="SocialMedia" src={GithubIcon}
                 style={{
                   height: 25,
                   width: 25,
@@ -78,7 +78,7 @@ const Sobre = () => {
                   height: 25,
                   width: 25,
                 }} /></a>
-              <a href="https://www.linkedin.com/in/luan-martins-55b33916b/"><img alt="SocialMedia" src={LinkedinIcon}
+              <a href="https://www.linkedin.com/in/luan-martins-55b33916b/" target="_blank"><img alt="SocialMedia" src={LinkedinIcon}
                 style={{
                   height: 25,
                   width: 25,
@@ -98,7 +98,7 @@ const Sobre = () => {
             <br></br>
             <Col className="socialLinks">
 
-              <a href="https://github.com/Luis-Henrique-Lima"><img alt="SocialMedia" src={GithubIcon}
+              <a href="https://github.com/Luis-Henrique-Lima" target="_blank"><img alt="SocialMedia" src={GithubIcon}
                 style={{
                   height: 25,
                   width: 25,
@@ -108,7 +108,7 @@ const Sobre = () => {
                   height: 25,
                   width: 25,
                 }} /></a>
-              <a href="https://www.linkedin.com/in/lu%C3%ADs-henrique-santos/"><img alt="SocialMedia" src={LinkedinIcon}
+              <a href="https://www.linkedin.com/in/lu%C3%ADs-henrique-santos/" target="_blank"><img alt="SocialMedia" src={LinkedinIcon}
                 style={{
                   height: 25,
                   width: 25,
@@ -128,7 +128,7 @@ const Sobre = () => {
             <br></br>
             <Col className="socialLinks">
 
-              <a href="https://github.com/themonsteer"><img alt="SocialMedia" src={GithubIcon}
+              <a href="https://github.com/themonsteer" target="_blank"><img alt="SocialMedia" src={GithubIcon}
                 style={{
                   height: 25,
                   width: 25,
@@ -138,7 +138,7 @@ const Sobre = () => {
                   height: 25,
                   width: 25,
                 }} /></a>
-              <a href="https://www.linkedin.com/in/pedro-souza-a382b3182/"><img alt="SocialMedia" src={LinkedinIcon}
+              <a href="https://www.linkedin.com/in/pedro-souza-a382b3182/" target="_blank"><img alt="SocialMedia" src={LinkedinIcon}
                 style={{
                   height: 25,
                   width: 25,
@@ -154,7 +154,7 @@ const Sobre = () => {
             <p>Gestor de engajamento</p>
             <Col className="socialLinks">
 
-              <a href="https://github.com/pkdev95"><img alt="SocialMedia" src={GithubIcon}
+              <a href="https://github.com/pkdev95" target="_blank"><img alt="SocialMedia" src={GithubIcon}
                 style={{
                   height: 25,
                   width: 25,
