@@ -10,7 +10,6 @@ h2 {
 .homePage {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     justify-content: inherit;
     align-items: inherit;
@@ -24,42 +23,27 @@ h2 {
     justify-content: center;
     align-self: center;
 
-    margin-top: 4em;
-    margin-bottom: 2em;
 }
 
 .card {
     display: flex;
-.spotLight {
     flex-direction: row;
     flex-wrap: wrap;
     width: 100%;
     height: 100%;
     margin-bottom: 1em;
-    align-content: center;
-    justify-content: center;
-    margin-bottom: 3%;
-    padding: 1em;
-    display: flex;
-    position: relative;
-    width: 70%;
-
 }
 
 .cardBody {
-.col-sm {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
     padding: 2em;
-    object-fit: contain;   
-
 }
 
 .card h5 {
-h5 {
     color: #bbbbbb;
     padding-top: 0.5em;
     cursor: pointer;
@@ -68,7 +52,6 @@ h5 {
 .card a {
     display: flex;
     flex-direction: column;
-.cardTxt a {
     color: #bbbbbb;
     font-size: 13px;
     width: 320px;
@@ -88,13 +71,7 @@ h5 {
 .top10 {
     margin-bottom: 3rem;
     padding-left: 0;
-    padding-bottom: 0.5em;
 }
-.card {
-    display: inline-block;
-    flex-direction: row;
-    width: 40%;
-    height: 40%;
 
 .top10 li {
     list-style: none;
@@ -107,7 +84,7 @@ h5 {
 
 
 @media only screen and (max-device-width: 480px) {
-    .spotLight {
+    .spotlight {
         flex-direction: column;
         overflow-x: hidden;
     }
@@ -118,9 +95,7 @@ h5 {
         margin-bottom: 2em;
         justify-content: center;
         align-self: center;
-        margin: 0;
-   
- }
+    }
 
     .card {
         display: flex;
@@ -128,8 +103,8 @@ h5 {
     }
 }
 
-@media only screen and (max-device-width: 768px){
-    .spot {
+@media only screen and (max-device-width: 768px) {
+    .spotlight {
         flex-direction: column;
         overflow-x: hidden;
     }
