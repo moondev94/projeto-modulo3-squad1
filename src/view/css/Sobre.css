@@ -3,10 +3,59 @@ span{
 }
 
 .img{
-    width: 120px;
+    width: 100%;
+    margin-bottom: 10%;
     border-radius: 50%;
 }
+h5{
+    margin-bottom: 10%;
 
+}
+.cd {
+    text-align: center;
+    display: flow-root;
+}
 .ct{
     text-align: center;
 }
+.grupo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 35%;
+}
+
+
+    .socialLinks a {
+        display: inline-block;
+        height: 40px;
+        width: 40px;
+        background-color: rgba(255, 255, 255, 0.2);
+        margin: 0 10px 10px 0;
+        text-align: center;
+        line-height: 40px;
+        border-radius: 50%;
+        color: #ffffff;
+        transition: all 0.5s ease;
+    }
+    
+    .socialLinks a:hover {
+        color: #24262b;
+        background-color: #ffffff;
+    }
+
+    @media(max-width:800px){
+
+        .container{
+            justify-content: space-around !important;
+            text-align: center;
+
+        }
+        .grupo {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+    }
