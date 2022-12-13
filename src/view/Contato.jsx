@@ -19,7 +19,7 @@ const Contato = () => {
   >
 
       <h1>Entre em <span>contato</span></h1>
-      <h1>Entre em contato</h1>
+      
 
 
       <FormGroup>
