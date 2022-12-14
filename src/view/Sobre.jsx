@@ -28,7 +28,7 @@ const Sobre = () => {
         </Row>
         <hr style={{ color: 'rgb(233 30 99)', fontStyle: 'bold' }}></hr>
 
-        <h1 >Nossa <span>Equipe</span></h1>
+        <h1 className="p-3" >Nossa <span>Equipe</span></h1>
         <Col className="grupo">
           <Card className="cd">
 
