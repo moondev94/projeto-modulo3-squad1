@@ -21,7 +21,6 @@
 
 
 .nome {
-    background-color: #24262b;
     color: #ffffff;
 }
 
@@ -30,6 +29,9 @@
     height: 400px;
 
 }
-
+.listafilme {
+    display: flex;
+    flex-wrap: wrap;
+}
 
 
