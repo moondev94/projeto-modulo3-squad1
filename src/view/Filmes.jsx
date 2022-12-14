@@ -55,7 +55,7 @@ const Filmes = () => {
 <div>
   <div className='nome'>
  
-               <div className="Row">       
+               <div className="row">       
 <h1><span>Filmes</span></h1>
 <br></br>
         </div>
