@@ -91,7 +91,7 @@ const Filmes = () => {
   <div className='nome'>
  
                       
-<h1 >Filmes</h1>
+<h1><span>Filmes</span></h1>
 <br></br>
     <div className='devsfilmes'>
       
