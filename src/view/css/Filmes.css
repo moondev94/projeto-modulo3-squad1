@@ -6,7 +6,7 @@
     justify-content: space-between;
     margin: 0.5em;
     flex-wrap: wrap;
-    
+    width: 290px;
 }
 
 .filmes{
@@ -38,7 +38,6 @@ h1 {
 }
 
 .lll.ul {
-        width: 290px;
     display: flex;
     flex-direction: column;
 }
