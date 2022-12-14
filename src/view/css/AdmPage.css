@@ -7,12 +7,12 @@
 }
 
 .zzz {
-    padding: 5%
+    padding: 5%;
 }
 
 .ui.table[class*="single line"] {
-    padding: 1%
+    padding: 1%;
 }
 .ui.form .field>label {
-    color: grey
+    color: grey;
 }
