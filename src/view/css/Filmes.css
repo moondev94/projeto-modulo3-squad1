@@ -32,6 +32,11 @@
 .imgg:hover{
     box-shadow: 0px 2px 20px black;
 }
+
+.imgg.ul.p {
+padding-top: 10px;
+}
+
 .listafilme {
     display: flex;
     flex-wrap: wrap;
