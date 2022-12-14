@@ -55,9 +55,10 @@ const Filmes = () => {
 <div>
   <div className='nome'>
  
-                      
+               <div className="Row">       
 <h1><span>Filmes</span></h1>
 <br></br>
+        </div>
     <div className='devsfilmes'>
       
  <div className='listafilme'>
