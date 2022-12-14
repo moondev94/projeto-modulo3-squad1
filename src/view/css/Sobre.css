@@ -55,7 +55,7 @@ h5{
 
 @media(max-width:800px){
 
-.container{
+.containerSobre{
     justify-content: space-around !important;
     text-align: center;
     }
