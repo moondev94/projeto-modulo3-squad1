@@ -36,3 +36,9 @@
 h1 {
     margin-left: 50px;
 }
+
+.lll.ul {
+        width: 290px;
+    display: flex;
+    flex-direction: column;
+}
