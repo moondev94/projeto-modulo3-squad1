@@ -11,7 +11,7 @@ const Sobre = () => {
   document.title = "Sobre"
   return (
     <div>
-      <Container>
+      <Container className="containerSobre">
         <Row>
           <h1 > <span>Sobre</span> o Site</h1>
 
