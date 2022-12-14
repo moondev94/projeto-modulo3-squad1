@@ -10,6 +10,7 @@ const Update = () => {
     const [diretor, setDiretor] = useState('');
     const [duracao, setDuracao] = useState('');
     const[lancamento, setLancamento] = useState('');
+    const[imagem, setImagem] = useState('');
     const[ID, setID ] = useState(null);
     
 
@@ -18,7 +19,8 @@ const Update = () => {
             nome,
             diretor,
             duracao,
-            lancamento
+            lancamento,
+            imagem
     })     
 
     }   
@@ -28,6 +30,7 @@ const Update = () => {
         setDiretor(localStorage.getItem('diretor')); 
         setDuracao(localStorage.getItem('duracao')); 
         setLancamento(localStorage.getItem('lancamento')); 
+        setImagem(localStorage.getItem('imagem'));
         setID(localStorage.getItem('ID'))
     })
 
@@ -58,6 +61,12 @@ const Update = () => {
                     <label>Lançamento</label>
                     <input name='Lançamento' value={lancamento}
                      placeholder='lançamento'
+                     onChange={(e) => setLancamento(e.target.value)}  />
+                </Form.Field>
+                <Form.Field>
+                    <label>Imagem</label>
+                    <input name='Imagem' value={lancamento}
+                     placeholder='imagem'
                      onChange={(e) => setLancamento(e.target.value)}  />
                 </Form.Field>
                 <Button type='submit' onClick={sendDataToAPI}>atualizar</Button>

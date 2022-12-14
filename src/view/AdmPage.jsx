@@ -11,6 +11,7 @@ import './css/AdmPage.css';
 
 const AdmPage = () => {
 
+    const [imagem , setImagem] = useState('');
     const [nome, setFilme] = useState('');
     const [diretor, setDiretor] = useState('');
     const [duracao, setDuracao] = useState('');
@@ -20,6 +21,7 @@ const AdmPage = () => {
 
     const sendDataToAPI = () => {
         axios.post('https://trabalhoindividualjs.vercel.app/acao/', {
+            imagem,
             nome,
             diretor,
             duracao,
@@ -45,6 +47,10 @@ const AdmPage = () => {
         <Form.Field>
             <label>Lançamento</label>
           <input name='Lançamento'  placeholder='lançamento' onChange={(e) => setLancamento(e.target.value)}  />
+        </Form.Field>
+        <Form.Field>
+            <label>Imagem</label>
+            <input name='Imagem'  placeholder='Imagem' onChange={(e) => setImagem(e.target.value)} />
         </Form.Field>
         <Button type='submit' onClick={sendDataToAPI}>Enviar</Button>
     </Form>

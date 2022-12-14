@@ -18,12 +18,13 @@ export default function Read(){
         localStorage.setItem('ID', id)
     }
      
-    const setData = (id, filme, diretor, duracao, lancamento) => {
+    const setData = (id, filme, diretor, duracao, lancamento, imagem) => {
         localStorage.setItem('ID', id)
         localStorage.setItem('filme', filme)
         localStorage.setItem('diretor', diretor)
         localStorage.setItem('duracao', duracao)
         localStorage.setItem('lancamento', lancamento)
+        localStorage.setItem('imagem', imagem)
     }
 
   const getData = () => [
@@ -59,6 +60,7 @@ export default function Read(){
                         <Table.HeaderCell>Diretor</Table.HeaderCell>
                         <Table.HeaderCell>Duração</Table.HeaderCell>
                         <Table.HeaderCell>Lançamento</Table.HeaderCell>
+                        <Table.HeaderCell>Imagem</Table.HeaderCell>
                     </Table.Row>
                 </Table.Header>
 
@@ -70,6 +72,8 @@ export default function Read(){
                         <Table.Cell>{data.diretor}</Table.Cell>
                         <Table.Cell>{data.duracao}</Table.Cell>
                         <Table.Cell>{data.lancamento}</Table.Cell>
+                        <Table.Cell>{data.imagem}</Table.Cell>
+
                         <Table.Cell><Button color="red" onClick={() => onDelete(data.id)} >Delete</Button></Table.Cell>
                        </Table.Row>
                     )
