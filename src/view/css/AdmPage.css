@@ -10,9 +10,9 @@
     padding: 5%
 }
 
-.zzz table {
+.zzz.table {
     padding: 1%
 }
-.field label {
+.field.label {
     color: grey
 }
