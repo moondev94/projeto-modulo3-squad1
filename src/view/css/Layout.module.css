@@ -79,7 +79,7 @@ h1 {
 }
 
 .searchBox {
-    transform: translate(-10%, 25%);
+    transform: translate(-10%, 15%);
     background: #ffffff33;
     height: 40px;
     border-radius: 40px;
