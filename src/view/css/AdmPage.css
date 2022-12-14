@@ -10,9 +10,9 @@
     padding: 5%
 }
 
-.zzz.table {
+.ui.table[class*="single line"] {
     padding: 1%
 }
-.field.label {
+.ui.form .field>label {
     color: grey
 }
