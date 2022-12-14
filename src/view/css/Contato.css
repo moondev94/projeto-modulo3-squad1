@@ -56,3 +56,6 @@ input:hover, textarea:hover, input:focus, textarea:focus {
 .ModalHeader {
 color: black
 }
+.ModalBody {
+color: black
+}
