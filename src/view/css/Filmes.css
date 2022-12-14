@@ -29,6 +29,9 @@
     height: 300px;
 
 }
+.imgg:hover{
+    box-shadow: 0px 2px 20px black;
+}
 .listafilme {
     display: flex;
     flex-wrap: wrap;
