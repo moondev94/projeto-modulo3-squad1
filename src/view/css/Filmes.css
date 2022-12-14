@@ -33,5 +33,6 @@
     display: flex;
     flex-wrap: wrap;
 }
-
-
+h1 {
+    margin-left: 25px;
+}
