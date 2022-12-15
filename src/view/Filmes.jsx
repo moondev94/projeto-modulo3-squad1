@@ -2,7 +2,11 @@ import axios from 'axios';
 import React, { useState, useEffect } from 'react';
 
 
-
+function dsc() {
+    
+document.getElementById(".imgg.p").style.display="none";
+    
+}
 
 const Filmes = () => {
     document.title = "Filmes"
@@ -69,7 +73,7 @@ const Filmes = () => {
    <div className='lll'>
     
       <ul>
-      <img className='imgg' src={`../imagemapi/`+ data.imagem}></img>
+      <img className='imgg' onClick="dsc()" src={`../imagemapi/`+ data.imagem}></img>
       <p> Nome:{data.nome} <br></br> Diretor: {data.diretor} <br></br> Duração: {data.duracao} <br></br> Lançamento: {data.lancamento}</p>
       </ul>
      
