@@ -1,12 +1,13 @@
 import axios from 'axios';
 import React, { useState, useEffect } from 'react';
 
+var open = document.querySelecto('cntd')
 
 function dsc() {
-    
-document.querySelector("imgg.p").style.display="none";
-    
-}
+ 
+open.addEventListener('click', function() {
+    metodo.style.display = 'none';
+})
 
 const Filmes = () => {
     document.title = "Filmes"
@@ -74,7 +75,7 @@ const Filmes = () => {
     
       <ul>
       <img className='imgg' onclick="dsc()" src={`../imagemapi/`+ data.imagem}></img>
-      <p> Nome:{data.nome} <br></br> Diretor: {data.diretor} <br></br> Duração: {data.duracao} <br></br> Lançamento: {data.lancamento}</p>
+      <p className="cntd"> Nome:{data.nome} <br></br> Diretor: {data.diretor} <br></br> Duração: {data.duracao} <br></br> Lançamento: {data.lancamento}</p>
       </ul>
      
 
