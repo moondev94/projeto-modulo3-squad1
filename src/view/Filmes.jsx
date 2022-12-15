@@ -4,8 +4,9 @@ import React, { useState, useEffect } from 'react';
 
 
 function dsc() {
-var open = document.querySelector('cntd')
-imgg.addEventListener('click', function() {
+let capa = document.querySelector('imgg);
+let open = document.querySelector('cntd');
+capa.addEventListener('click', function() {
     open.style.display = 'none';
 })
 
