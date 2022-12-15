@@ -4,7 +4,7 @@ import React, { useState, useEffect } from 'react';
 
 function dsc() {
     
-document.getElementById(".imgg.p").style.display="none";
+document.getElementById("imgg.p").style.display="none";
     
 }
 
@@ -73,7 +73,7 @@ const Filmes = () => {
    <div className='lll'>
     
       <ul>
-      <img className='imgg' onClick="dsc()" src={`../imagemapi/`+ data.imagem}></img>
+      <img className='imgg' onclick="dsc()" src={`../imagemapi/`+ data.imagem}></img>
       <p> Nome:{data.nome} <br></br> Diretor: {data.diretor} <br></br> Duração: {data.duracao} <br></br> Lançamento: {data.lancamento}</p>
       </ul>
      
