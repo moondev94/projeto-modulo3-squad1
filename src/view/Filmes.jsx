@@ -1,12 +1,12 @@
 import axios from 'axios';
 import React, { useState, useEffect } from 'react';
 
-var open = document.querySelecto('cntd')
+
 
 function dsc() {
- 
-open.addEventListener('click', function() {
-    metodo.style.display = 'none';
+var open = document.querySelector('cntd')
+imgg.addEventListener('click', function() {
+    open.style.display = 'none';
 })
 
 const Filmes = () => {
