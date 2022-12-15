@@ -4,7 +4,7 @@ import React, { useState, useEffect } from 'react';
 
 function dsc() {
     
-document.getElementById("imgg.p").style.display="none";
+document.querySelector("imgg.p").style.display="none";
     
 }
 
