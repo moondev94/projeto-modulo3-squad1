@@ -75,7 +75,7 @@ const Filmes = () => {
     
       <ul>
       <img className='imgg' onclick="dsc()" src={`../imagemapi/`+ data.imagem}></img>
-      <p className="cntd"> Nome:{data.nome} <br></br> Diretor: {data.diretor} <br></br> Duração: {data.duracao} <br></br> Lançamento: {data.lancamento}</p>
+      <p className='cntd'> Nome:{data.nome} <br></br> Diretor: {data.diretor} <br></br> Duração: {data.duracao} <br></br> Lançamento: {data.lancamento}</p>
       </ul>
      
 
