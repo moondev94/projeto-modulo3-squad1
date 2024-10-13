@@ -62,13 +62,13 @@ const Sobre = () => {
           <Card className="cd">
 
             <img className="img" src="https://media-exp1.licdn.com/dms/image/C4E03AQH4_PQQ_J7lXA/profile-displayphoto-shrink_800_800/0/1625260631370?e=1675900800&v=beta&t=l8zBK_oePLFsTcfyvZn_GxG5HOQCKoZfBoiw8Ln_OX4" alt="" />
-            <h5 >LUAN ALVES</h5>
+            <h5 >LUAN MARTINS</h5>
 
             <p>Co-Facilitador</p>
             <br></br>
             <Col className="socialLinks">
 
-              <a href="https://github.com/luanmartins8"><img alt="SocialMedia" src={GithubIcon}
+              <a href="https://github.com/moondev94"><img alt="SocialMedia" src={GithubIcon}
                 style={{
                   height: 25,
                   width: 25,
